@@ -1,0 +1,734 @@
+2025-04-03 13:03:41.231 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-03 13:03:41.231 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-03 13:03:41.232 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-03 13:03:41.232 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-03 13:03:41.232 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-03 13:03:41.232 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-03 13:03:41.232 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-03 13:03:41.232 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-03 13:03:41.232 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-03 13:03:41.233 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-03 13:03:41.233 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-03 13:03:41.233 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-03 13:03:41.233 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-03 13:03:41.233 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-03 13:03:41.234 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-04-03 13:03:41.599 [info] Started local extension host with pid 30101.
+2025-04-03 13:03:42.207 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-04-03 13:03:42.344 [info] Started local extension host with pid 30132.
+2025-04-03 13:03:42.931 [error] [Extension Host] (node:30101) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-04-03 13:03:43.256 [error] [Extension Host] (node:30132) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-04-03 13:03:44.416 [error] ENOENT: no such file or directory, open '/home/aj/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/aj/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/aj/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-04-03 13:03:44.609 [info] [perf] Render performance baseline is 22ms
+2025-04-03 13:03:44.727 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async c3t.performDefaultModelRequest (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:593:38078) [unauthenticated] Error
+2025-04-03 13:03:44.733 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.availableModels (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async eEi.keepCppModelStateUpdated (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4971:11402)
+    at async eEi.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4986:1027) [unauthenticated] Error
+2025-04-03 13:04:10.940 [error] Cannot read the extension from /home/aj/.cursor/extensions/vscodevim.vim-1.29.0: ScanningExtension: Cannot read the extension from /home/aj/.cursor/extensions/vscodevim.vim-1.29.0
+    at ou.scanLocalExtension (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:74902) Cannot read the extension from /home/aj/.cursor/extensions/vscodevim.vim-1.29.0
+2025-04-03 13:04:11.064 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getEmail (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getEmailAndSignUpType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:138295) [unauthenticated] Error
+2025-04-03 13:04:15.576 [info] Starting polling for login
+2025-04-03 13:04:18.442 [info] Beginning of Login Poll
+2025-04-03 13:04:18.446 [info] Beginning of Login Poll
+2025-04-03 13:04:18.447 [info] Beginning of Login Poll
+2025-04-03 13:04:18.447 [info] Beginning of Login Poll
+2025-04-03 13:04:18.447 [info] Beginning of Login Poll
+2025-04-03 13:04:18.447 [info] Beginning of Login Poll
+2025-04-03 13:04:18.448 [info] Beginning of Login Poll
+2025-04-03 13:04:18.448 [info] Beginning of Login Poll
+2025-04-03 13:04:18.449 [info] Beginning of Login Poll
+2025-04-03 13:04:18.449 [info] Beginning of Login Poll
+2025-04-03 13:04:18.449 [info] Beginning of Login Poll
+2025-04-03 13:04:18.449 [info] Beginning of Login Poll
+2025-04-03 13:04:18.450 [info] Beginning of Login Poll
+2025-04-03 13:04:18.450 [info] Beginning of Login Poll
+2025-04-03 13:04:18.529 [info] Got login result 404
+2025-04-03 13:04:18.556 [info] Got login result 404
+2025-04-03 13:04:18.576 [info] Beginning of Login Poll
+2025-04-03 13:04:18.586 [info] Got login result 404
+2025-04-03 13:04:18.616 [info] Got login result 404
+2025-04-03 13:04:18.644 [info] Got login result 404
+2025-04-03 13:04:18.673 [info] Got login result 404
+2025-04-03 13:04:18.702 [info] Got login result 404
+2025-04-03 13:04:18.730 [info] Got login result 404
+2025-04-03 13:04:18.763 [info] Got login result 404
+2025-04-03 13:04:18.777 [info] Beginning of Login Poll
+2025-04-03 13:04:18.794 [info] Got login result 404
+2025-04-03 13:04:18.822 [info] Got login result 404
+2025-04-03 13:04:18.850 [info] Got login result 404
+2025-04-03 13:04:18.879 [info] Got login result 404
+2025-04-03 13:04:18.908 [info] Got login result 404
+2025-04-03 13:04:18.938 [info] Got login result 404
+2025-04-03 13:04:18.967 [info] Got login result 404
+2025-04-03 13:04:18.976 [info] Beginning of Login Poll
+2025-04-03 13:04:19.010 [info] Got login result 404
+2025-04-03 13:04:19.179 [info] Beginning of Login Poll
+2025-04-03 13:04:19.212 [info] Got login result 404
+2025-04-03 13:04:19.377 [info] Beginning of Login Poll
+2025-04-03 13:04:19.416 [info] Got login result 404
+2025-04-03 13:04:19.577 [info] Beginning of Login Poll
+2025-04-03 13:04:19.614 [info] Got login result 404
+2025-04-03 13:04:19.776 [info] Beginning of Login Poll
+2025-04-03 13:04:19.809 [info] Got login result 404
+2025-04-03 13:04:19.976 [info] Beginning of Login Poll
+2025-04-03 13:04:20.009 [info] Got login result 404
+2025-04-03 13:04:20.176 [info] Beginning of Login Poll
+2025-04-03 13:04:20.208 [info] Got login result 404
+2025-04-03 13:04:20.377 [info] Beginning of Login Poll
+2025-04-03 13:04:20.413 [info] Got login result 404
+2025-04-03 13:04:20.576 [info] Beginning of Login Poll
+2025-04-03 13:04:20.609 [info] Got login result 404
+2025-04-03 13:04:20.777 [info] Beginning of Login Poll
+2025-04-03 13:04:20.814 [info] Got login result 404
+2025-04-03 13:04:20.976 [info] Beginning of Login Poll
+2025-04-03 13:04:21.009 [info] Got login result 404
+2025-04-03 13:04:21.177 [info] Beginning of Login Poll
+2025-04-03 13:04:21.215 [info] Got login result 404
+2025-04-03 13:04:21.377 [info] Beginning of Login Poll
+2025-04-03 13:04:21.415 [info] Got login result 404
+2025-04-03 13:04:21.576 [info] Beginning of Login Poll
+2025-04-03 13:04:21.620 [info] Got login result 404
+2025-04-03 13:04:21.777 [info] Beginning of Login Poll
+2025-04-03 13:04:21.815 [info] Got login result 404
+2025-04-03 13:04:21.977 [info] Beginning of Login Poll
+2025-04-03 13:04:22.013 [info] Got login result 404
+2025-04-03 13:04:22.177 [info] Beginning of Login Poll
+2025-04-03 13:04:22.215 [info] Got login result 404
+2025-04-03 13:04:22.376 [info] Beginning of Login Poll
+2025-04-03 13:04:22.410 [info] Got login result 404
+2025-04-03 13:04:22.577 [info] Beginning of Login Poll
+2025-04-03 13:04:22.615 [info] Got login result 404
+2025-04-03 13:04:22.777 [info] Beginning of Login Poll
+2025-04-03 13:04:22.816 [info] Got login result 404
+2025-04-03 13:04:22.978 [info] Beginning of Login Poll
+2025-04-03 13:04:23.017 [info] Got login result 404
+2025-04-03 13:04:23.178 [info] Beginning of Login Poll
+2025-04-03 13:04:23.218 [info] Got login result 404
+2025-04-03 13:04:23.377 [info] Beginning of Login Poll
+2025-04-03 13:04:23.416 [info] Got login result 404
+2025-04-03 13:04:23.577 [info] Beginning of Login Poll
+2025-04-03 13:04:23.616 [info] Got login result 404
+2025-04-03 13:04:23.776 [info] Beginning of Login Poll
+2025-04-03 13:04:23.809 [info] Got login result 404
+2025-04-03 13:04:23.978 [info] Beginning of Login Poll
+2025-04-03 13:04:24.016 [info] Got login result 404
+2025-04-03 13:04:24.178 [info] Beginning of Login Poll
+2025-04-03 13:04:24.216 [info] Got login result 404
+2025-04-03 13:04:24.377 [info] Beginning of Login Poll
+2025-04-03 13:04:24.417 [info] Got login result 404
+2025-04-03 13:04:24.577 [info] Beginning of Login Poll
+2025-04-03 13:04:24.615 [info] Got login result 404
+2025-04-03 13:04:24.777 [info] Beginning of Login Poll
+2025-04-03 13:04:24.818 [info] Got login result 404
+2025-04-03 13:04:24.977 [info] Beginning of Login Poll
+2025-04-03 13:04:25.017 [info] Got login result 404
+2025-04-03 13:04:25.181 [info] Beginning of Login Poll
+2025-04-03 13:04:25.218 [info] Got login result 404
+2025-04-03 13:04:25.377 [info] Beginning of Login Poll
+2025-04-03 13:04:25.417 [info] Got login result 404
+2025-04-03 13:04:25.578 [info] Beginning of Login Poll
+2025-04-03 13:04:25.616 [info] Got login result 404
+2025-04-03 13:04:25.777 [info] Beginning of Login Poll
+2025-04-03 13:04:25.816 [info] Got login result 404
+2025-04-03 13:04:25.977 [info] Beginning of Login Poll
+2025-04-03 13:04:26.015 [info] Got login result 404
+2025-04-03 13:04:26.177 [info] Beginning of Login Poll
+2025-04-03 13:04:26.218 [info] Got login result 404
+2025-04-03 13:04:26.377 [info] Beginning of Login Poll
+2025-04-03 13:04:26.417 [info] Got login result 404
+2025-04-03 13:04:26.577 [info] Beginning of Login Poll
+2025-04-03 13:04:26.616 [info] Got login result 404
+2025-04-03 13:04:26.777 [info] Beginning of Login Poll
+2025-04-03 13:04:26.816 [info] Got login result 404
+2025-04-03 13:04:26.978 [info] Beginning of Login Poll
+2025-04-03 13:04:27.015 [info] Got login result 404
+2025-04-03 13:04:27.178 [info] Beginning of Login Poll
+2025-04-03 13:04:27.217 [info] Got login result 404
+2025-04-03 13:04:27.377 [info] Beginning of Login Poll
+2025-04-03 13:04:27.415 [info] Got login result 404
+2025-04-03 13:04:27.578 [info] Beginning of Login Poll
+2025-04-03 13:04:27.616 [info] Got login result 404
+2025-04-03 13:04:27.778 [info] Beginning of Login Poll
+2025-04-03 13:04:27.817 [info] Got login result 404
+2025-04-03 13:04:27.978 [info] Beginning of Login Poll
+2025-04-03 13:04:29.272 [info] Beginning of Login Poll
+2025-04-03 13:04:29.273 [info] Beginning of Login Poll
+2025-04-03 13:04:29.274 [info] Beginning of Login Poll
+2025-04-03 13:04:29.275 [info] Beginning of Login Poll
+2025-04-03 13:04:29.276 [info] Beginning of Login Poll
+2025-04-03 13:04:29.276 [info] Beginning of Login Poll
+2025-04-03 13:04:29.314 [info] Got login result 404
+2025-04-03 13:04:29.343 [info] Got login result 404
+2025-04-03 13:04:29.373 [info] Got login result 404
+2025-04-03 13:04:29.390 [info] Beginning of Login Poll
+2025-04-03 13:04:29.421 [info] Got login result 404
+2025-04-03 13:04:29.449 [info] Got login result 404
+2025-04-03 13:04:29.477 [info] Got login result 404
+2025-04-03 13:04:29.539 [info] Got login result 404
+2025-04-03 13:04:29.569 [info] Got login result 404
+2025-04-03 13:04:29.610 [info] Beginning of Login Poll
+2025-04-03 13:04:29.647 [info] Got login result 404
+2025-04-03 13:04:29.776 [info] Beginning of Login Poll
+2025-04-03 13:04:29.812 [info] Got login result 404
+2025-04-03 13:04:29.977 [info] Beginning of Login Poll
+2025-04-03 13:04:30.013 [info] Got login result 404
+2025-04-03 13:04:30.177 [info] Beginning of Login Poll
+2025-04-03 13:04:30.209 [info] Got login result 404
+2025-04-03 13:04:30.377 [info] Beginning of Login Poll
+2025-04-03 13:04:30.412 [info] Got login result 404
+2025-04-03 13:04:30.576 [info] Beginning of Login Poll
+2025-04-03 13:04:30.608 [info] Got login result 404
+2025-04-03 13:04:30.777 [info] Beginning of Login Poll
+2025-04-03 13:04:30.813 [info] Got login result 404
+2025-04-03 13:04:30.978 [info] Beginning of Login Poll
+2025-04-03 13:04:31.015 [info] Got login result 404
+2025-04-03 13:04:31.177 [info] Beginning of Login Poll
+2025-04-03 13:04:31.247 [info] Got login result 404
+2025-04-03 13:04:31.376 [info] Beginning of Login Poll
+2025-04-03 13:04:31.407 [info] Got login result 404
+2025-04-03 13:04:31.576 [info] Beginning of Login Poll
+2025-04-03 13:04:31.609 [info] Got login result 404
+2025-04-03 13:04:31.777 [info] Beginning of Login Poll
+2025-04-03 13:04:31.812 [info] Got login result 404
+2025-04-03 13:04:31.977 [info] Beginning of Login Poll
+2025-04-03 13:04:32.009 [info] Got login result 404
+2025-04-03 13:04:32.176 [info] Beginning of Login Poll
+2025-04-03 13:04:32.218 [info] Got login result 404
+2025-04-03 13:04:32.376 [info] Beginning of Login Poll
+2025-04-03 13:04:32.407 [info] Got login result 404
+2025-04-03 13:04:32.576 [info] Beginning of Login Poll
+2025-04-03 13:04:32.611 [info] Got login result 404
+2025-04-03 13:04:32.777 [info] Beginning of Login Poll
+2025-04-03 13:04:32.817 [info] Got login result 404
+2025-04-03 13:04:32.977 [info] Beginning of Login Poll
+2025-04-03 13:04:33.016 [info] Got login result 404
+2025-04-03 13:04:33.176 [info] Beginning of Login Poll
+2025-04-03 13:04:33.214 [info] Got login result 404
+2025-04-03 13:04:33.376 [info] Beginning of Login Poll
+2025-04-03 13:04:33.409 [info] Got login result 404
+2025-04-03 13:04:33.576 [info] Beginning of Login Poll
+2025-04-03 13:04:33.607 [info] Got login result 404
+2025-04-03 13:04:33.777 [info] Beginning of Login Poll
+2025-04-03 13:04:33.810 [info] Got login result 404
+2025-04-03 13:04:33.977 [info] Beginning of Login Poll
+2025-04-03 13:04:34.013 [info] Got login result 404
+2025-04-03 13:04:34.176 [info] Beginning of Login Poll
+2025-04-03 13:04:34.212 [info] Got login result 404
+2025-04-03 13:04:34.377 [info] Beginning of Login Poll
+2025-04-03 13:04:34.412 [info] Got login result 404
+2025-04-03 13:04:34.577 [info] Beginning of Login Poll
+2025-04-03 13:04:34.617 [info] Got login result 404
+2025-04-03 13:04:34.777 [info] Beginning of Login Poll
+2025-04-03 13:04:34.816 [info] Got login result 404
+2025-04-03 13:04:34.976 [info] Beginning of Login Poll
+2025-04-03 13:04:35.025 [info] Got login result 404
+2025-04-03 13:04:35.176 [info] Beginning of Login Poll
+2025-04-03 13:04:35.211 [info] Got login result 404
+2025-04-03 13:04:35.377 [info] Beginning of Login Poll
+2025-04-03 13:04:35.432 [info] Got login result 404
+2025-04-03 13:04:35.576 [info] Beginning of Login Poll
+2025-04-03 13:04:35.612 [info] Got login result 404
+2025-04-03 13:04:35.777 [info] Beginning of Login Poll
+2025-04-03 13:04:35.817 [info] Got login result 404
+2025-04-03 13:04:35.978 [info] Beginning of Login Poll
+2025-04-03 13:04:36.019 [info] Got login result 404
+2025-04-03 13:04:36.177 [info] Beginning of Login Poll
+2025-04-03 13:04:36.216 [info] Got login result 404
+2025-04-03 13:04:36.377 [info] Beginning of Login Poll
+2025-04-03 13:04:36.411 [info] Got login result 404
+2025-04-03 13:04:36.576 [info] Beginning of Login Poll
+2025-04-03 13:04:36.612 [info] Got login result 404
+2025-04-03 13:04:36.777 [info] Beginning of Login Poll
+2025-04-03 13:04:36.815 [info] Got login result 404
+2025-04-03 13:04:36.977 [info] Beginning of Login Poll
+2025-04-03 13:04:37.023 [info] Got login result 404
+2025-04-03 13:04:37.177 [info] Beginning of Login Poll
+2025-04-03 13:04:37.216 [info] Got login result 404
+2025-04-03 13:04:37.377 [info] Beginning of Login Poll
+2025-04-03 13:04:37.415 [info] Got login result 404
+2025-04-03 13:04:37.577 [info] Beginning of Login Poll
+2025-04-03 13:04:37.616 [info] Got login result 404
+2025-04-03 13:04:37.778 [info] Beginning of Login Poll
+2025-04-03 13:04:37.816 [info] Got login result 404
+2025-04-03 13:04:37.977 [info] Beginning of Login Poll
+2025-04-03 13:04:38.015 [info] Got login result 404
+2025-04-03 13:04:38.179 [info] Beginning of Login Poll
+2025-04-03 13:04:38.216 [info] Got login result 404
+2025-04-03 13:04:38.377 [info] Beginning of Login Poll
+2025-04-03 13:04:38.413 [info] Got login result 404
+2025-04-03 13:04:38.578 [info] Beginning of Login Poll
+2025-04-03 13:04:38.616 [info] Got login result 404
+2025-04-03 13:04:38.778 [info] Beginning of Login Poll
+2025-04-03 13:04:38.816 [info] Got login result 404
+2025-04-03 13:04:38.977 [info] Beginning of Login Poll
+2025-04-03 13:04:39.016 [info] Got login result 404
+2025-04-03 13:04:39.177 [info] Beginning of Login Poll
+2025-04-03 13:04:39.216 [info] Got login result 404
+2025-04-03 13:04:39.377 [info] Beginning of Login Poll
+2025-04-03 13:04:39.418 [info] Got login result 404
+2025-04-03 13:04:39.578 [info] Beginning of Login Poll
+2025-04-03 13:04:39.622 [info] Got login result 404
+2025-04-03 13:04:39.776 [info] Beginning of Login Poll
+2025-04-03 13:04:39.810 [info] Got login result 404
+2025-04-03 13:04:39.977 [info] Beginning of Login Poll
+2025-04-03 13:04:40.016 [info] Got login result 404
+2025-04-03 13:04:40.177 [info] Beginning of Login Poll
+2025-04-03 13:04:40.215 [info] Got login result 404
+2025-04-03 13:04:40.377 [info] Beginning of Login Poll
+2025-04-03 13:04:40.415 [info] Got login result 404
+2025-04-03 13:04:40.577 [info] Beginning of Login Poll
+2025-04-03 13:04:40.614 [info] Got login result 404
+2025-04-03 13:04:40.778 [info] Beginning of Login Poll
+2025-04-03 13:04:40.819 [info] Got login result 404
+2025-04-03 13:04:40.976 [info] Beginning of Login Poll
+2025-04-03 13:04:41.011 [info] Got login result 404
+2025-04-03 13:04:41.177 [info] Beginning of Login Poll
+2025-04-03 13:04:41.228 [info] Got login result 404
+2025-04-03 13:04:41.377 [info] Beginning of Login Poll
+2025-04-03 13:04:41.414 [info] Got login result 404
+2025-04-03 13:04:41.585 [info] Beginning of Login Poll
+2025-04-03 13:04:41.622 [info] Got login result 404
+2025-04-03 13:04:41.777 [info] Beginning of Login Poll
+2025-04-03 13:04:41.815 [info] Got login result 404
+2025-04-03 13:04:41.978 [info] Beginning of Login Poll
+2025-04-03 13:04:42.017 [info] Got login result 404
+2025-04-03 13:04:42.177 [info] Beginning of Login Poll
+2025-04-03 13:04:42.213 [info] Got login result 404
+2025-04-03 13:04:42.377 [info] Beginning of Login Poll
+2025-04-03 13:04:42.415 [info] Got login result 404
+2025-04-03 13:04:42.577 [info] Beginning of Login Poll
+2025-04-03 13:04:42.616 [info] Got login result 404
+2025-04-03 13:04:42.777 [info] Beginning of Login Poll
+2025-04-03 13:04:42.817 [info] Got login result 404
+2025-04-03 13:04:42.977 [info] Beginning of Login Poll
+2025-04-03 13:04:43.009 [info] Got login result 404
+2025-04-03 13:04:43.177 [info] Beginning of Login Poll
+2025-04-03 13:04:43.211 [info] Got login result 404
+2025-04-03 13:04:43.377 [info] Beginning of Login Poll
+2025-04-03 13:04:43.416 [info] Got login result 404
+2025-04-03 13:04:43.577 [info] Beginning of Login Poll
+2025-04-03 13:04:43.618 [info] Got login result 404
+2025-04-03 13:04:43.778 [info] Beginning of Login Poll
+2025-04-03 13:04:43.817 [info] Got login result 404
+2025-04-03 13:04:43.978 [info] Beginning of Login Poll
+2025-04-03 13:04:44.016 [info] Got login result 404
+2025-04-03 13:04:44.177 [info] Beginning of Login Poll
+2025-04-03 13:04:44.216 [info] Got login result 404
+2025-04-03 13:04:44.377 [info] Beginning of Login Poll
+2025-04-03 13:04:44.418 [info] Got login result 404
+2025-04-03 13:04:44.577 [info] Beginning of Login Poll
+2025-04-03 13:04:44.614 [info] Got login result 404
+2025-04-03 13:04:44.811 [info] Beginning of Login Poll
+2025-04-03 13:04:44.820 [info] Starting polling for login
+2025-04-03 13:04:44.851 [info] Got login result 404
+2025-04-03 13:04:44.941 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getEmail (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getEmailAndSignUpType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:138295) [unauthenticated] Error
+2025-04-03 13:04:45.021 [info] Beginning of Login Poll
+2025-04-03 13:04:45.081 [info] Got login result 404
+2025-04-03 13:04:45.221 [info] Beginning of Login Poll
+2025-04-03 13:04:45.260 [info] Got login result 404
+2025-04-03 13:04:45.420 [info] Beginning of Login Poll
+2025-04-03 13:04:45.457 [info] Got login result 404
+2025-04-03 13:04:45.621 [info] Beginning of Login Poll
+2025-04-03 13:04:45.658 [info] Got login result 404
+2025-04-03 13:04:45.821 [info] Beginning of Login Poll
+2025-04-03 13:04:45.853 [info] Got login result 404
+2025-04-03 13:04:46.021 [info] Beginning of Login Poll
+2025-04-03 13:04:46.054 [info] Got login result 404
+2025-04-03 13:04:46.220 [info] Beginning of Login Poll
+2025-04-03 13:04:46.259 [info] Got login result 404
+2025-04-03 13:04:46.421 [info] Beginning of Login Poll
+2025-04-03 13:04:46.453 [info] Got login result 404
+2025-04-03 13:04:46.621 [info] Beginning of Login Poll
+2025-04-03 13:04:46.653 [info] Got login result 404
+2025-04-03 13:04:46.820 [info] Beginning of Login Poll
+2025-04-03 13:04:46.851 [info] Got login result 404
+2025-04-03 13:04:46.982 [info] Starting polling for login
+2025-04-03 13:04:47.182 [info] Beginning of Login Poll
+2025-04-03 13:04:47.246 [info] Got login result 404
+2025-04-03 13:04:47.383 [info] Beginning of Login Poll
+2025-04-03 13:04:47.414 [info] Got login result 404
+2025-04-03 13:04:47.582 [info] Beginning of Login Poll
+2025-04-03 13:04:47.616 [info] Got login result 404
+2025-04-03 13:04:47.783 [info] Beginning of Login Poll
+2025-04-03 13:04:47.820 [info] Got login result 404
+2025-04-03 13:04:47.983 [info] Beginning of Login Poll
+2025-04-03 13:04:48.023 [info] Got login result 404
+2025-04-03 13:04:48.182 [info] Beginning of Login Poll
+2025-04-03 13:04:48.213 [info] Got login result 404
+2025-04-03 13:04:48.382 [info] Beginning of Login Poll
+2025-04-03 13:04:48.412 [info] Got login result 404
+2025-04-03 13:04:48.582 [info] Beginning of Login Poll
+2025-04-03 13:04:48.614 [info] Got login result 404
+2025-04-03 13:04:48.783 [info] Beginning of Login Poll
+2025-04-03 13:04:48.821 [info] Got login result 404
+2025-04-03 13:04:48.983 [info] Beginning of Login Poll
+2025-04-03 13:04:49.022 [info] Got login result 404
+2025-04-03 13:04:49.183 [info] Beginning of Login Poll
+2025-04-03 13:04:49.221 [info] Got login result 404
+2025-04-03 13:04:49.383 [info] Beginning of Login Poll
+2025-04-03 13:04:49.421 [info] Got login result 404
+2025-04-03 13:04:49.584 [info] Beginning of Login Poll
+2025-04-03 13:04:49.619 [info] Got login result 404
+2025-04-03 13:04:49.783 [info] Beginning of Login Poll
+2025-04-03 13:04:49.821 [info] Got login result 404
+2025-04-03 13:04:49.983 [info] Beginning of Login Poll
+2025-04-03 13:04:50.025 [info] Got login result 404
+2025-04-03 13:04:50.183 [info] Beginning of Login Poll
+2025-04-03 13:04:50.221 [info] Got login result 404
+2025-04-03 13:04:50.383 [info] Beginning of Login Poll
+2025-04-03 13:04:50.421 [info] Got login result 404
+2025-04-03 13:04:50.584 [info] Beginning of Login Poll
+2025-04-03 13:04:50.622 [info] Got login result 404
+2025-04-03 13:04:50.783 [info] Beginning of Login Poll
+2025-04-03 13:04:50.821 [info] Got login result 404
+2025-04-03 13:04:50.983 [info] Beginning of Login Poll
+2025-04-03 13:04:51.023 [info] Got login result 404
+2025-04-03 13:04:51.183 [info] Beginning of Login Poll
+2025-04-03 13:04:51.219 [info] Got login result 404
+2025-04-03 13:04:51.384 [info] Beginning of Login Poll
+2025-04-03 13:04:51.423 [info] Got login result 404
+2025-04-03 13:04:51.584 [info] Beginning of Login Poll
+2025-04-03 13:04:51.623 [info] Got login result 404
+2025-04-03 13:04:51.783 [info] Beginning of Login Poll
+2025-04-03 13:04:51.822 [info] Got login result 404
+2025-04-03 13:04:51.982 [info] Beginning of Login Poll
+2025-04-03 13:04:52.023 [info] Got login result 404
+2025-04-03 13:04:52.182 [info] Beginning of Login Poll
+2025-04-03 13:04:52.216 [info] Got login result 404
+2025-04-03 13:04:52.383 [info] Beginning of Login Poll
+2025-04-03 13:04:52.422 [info] Got login result 404
+2025-04-03 13:04:52.582 [info] Beginning of Login Poll
+2025-04-03 13:04:52.612 [info] Got login result 404
+2025-04-03 13:04:52.783 [info] Beginning of Login Poll
+2025-04-03 13:04:52.818 [info] Got login result 404
+2025-04-03 13:04:52.982 [info] Beginning of Login Poll
+2025-04-03 13:04:53.016 [info] Got login result 404
+2025-04-03 13:04:53.182 [info] Beginning of Login Poll
+2025-04-03 13:04:53.218 [info] Got login result 404
+2025-04-03 13:04:53.382 [info] Beginning of Login Poll
+2025-04-03 13:04:53.415 [info] Got login result 404
+2025-04-03 13:04:53.583 [info] Beginning of Login Poll
+2025-04-03 13:04:53.622 [info] Got login result 404
+2025-04-03 13:04:53.783 [info] Beginning of Login Poll
+2025-04-03 13:04:53.819 [info] Got login result 404
+2025-04-03 13:04:53.983 [info] Beginning of Login Poll
+2025-04-03 13:04:54.023 [info] Got login result 404
+2025-04-03 13:04:54.182 [info] Beginning of Login Poll
+2025-04-03 13:04:54.213 [info] Got login result 404
+2025-04-03 13:04:54.383 [info] Beginning of Login Poll
+2025-04-03 13:04:54.427 [info] Got login result 404
+2025-04-03 13:04:54.582 [info] Beginning of Login Poll
+2025-04-03 13:04:54.618 [info] Got login result 404
+2025-04-03 13:04:54.782 [info] Beginning of Login Poll
+2025-04-03 13:04:54.816 [info] Got login result 404
+2025-04-03 13:04:54.983 [info] Beginning of Login Poll
+2025-04-03 13:04:55.025 [info] Got login result 404
+2025-04-03 13:04:55.182 [info] Beginning of Login Poll
+2025-04-03 13:04:55.219 [info] Got login result 404
+2025-04-03 13:04:55.383 [info] Beginning of Login Poll
+2025-04-03 13:04:55.421 [info] Got login result 404
+2025-04-03 13:04:55.582 [info] Beginning of Login Poll
+2025-04-03 13:04:55.812 [info] Beginning of Login Poll
+2025-04-03 13:04:55.845 [info] Got login result 404
+2025-04-03 13:04:55.874 [info] Got login result 404
+2025-04-03 13:04:55.982 [info] Beginning of Login Poll
+2025-04-03 13:04:56.017 [info] Got login result 404
+2025-04-03 13:04:56.182 [info] Beginning of Login Poll
+2025-04-03 13:04:56.214 [info] Got login result 404
+2025-04-03 13:04:56.382 [info] Beginning of Login Poll
+2025-04-03 13:04:56.416 [info] Got login result 404
+2025-04-03 13:04:57.682 [info] Beginning of Login Poll
+2025-04-03 13:04:57.683 [info] Beginning of Login Poll
+2025-04-03 13:04:57.684 [info] Beginning of Login Poll
+2025-04-03 13:04:57.685 [info] Beginning of Login Poll
+2025-04-03 13:04:57.686 [info] Beginning of Login Poll
+2025-04-03 13:04:57.686 [info] Beginning of Login Poll
+2025-04-03 13:04:57.728 [info] Got login result 404
+2025-04-03 13:04:57.757 [info] Got login result 404
+2025-04-03 13:04:57.783 [info] Beginning of Login Poll
+2025-04-03 13:04:57.789 [info] Got login result 404
+2025-04-03 13:04:57.817 [info] Got login result 404
+2025-04-03 13:04:57.847 [info] Got login result 404
+2025-04-03 13:04:57.877 [info] Got login result 404
+2025-04-03 13:04:57.909 [info] Got login result 404
+2025-04-03 13:04:57.982 [info] Beginning of Login Poll
+2025-04-03 13:04:58.018 [info] Got login result 404
+2025-04-03 13:04:58.182 [info] Beginning of Login Poll
+2025-04-03 13:04:58.213 [info] Got login result 404
+2025-04-03 13:04:58.382 [info] Beginning of Login Poll
+2025-04-03 13:04:58.417 [info] Got login result 404
+2025-04-03 13:04:58.583 [info] Beginning of Login Poll
+2025-04-03 13:04:58.620 [info] Got login result 404
+2025-04-03 13:04:58.783 [info] Beginning of Login Poll
+2025-04-03 13:04:58.982 [info] Beginning of Login Poll
+2025-04-03 13:04:59.165 [info] Got login result 404
+2025-04-03 13:04:59.183 [info] Beginning of Login Poll
+2025-04-03 13:04:59.193 [info] Got login result 404
+2025-04-03 13:04:59.222 [info] Got login result 404
+2025-04-03 13:04:59.382 [info] Beginning of Login Poll
+2025-04-03 13:04:59.488 [info] Got login result 404
+2025-04-03 13:04:59.582 [info] Beginning of Login Poll
+2025-04-03 13:04:59.615 [info] Got login result 404
+2025-04-03 13:04:59.782 [info] Beginning of Login Poll
+2025-04-03 13:04:59.816 [info] Got login result 404
+2025-04-03 13:04:59.983 [info] Beginning of Login Poll
+2025-04-03 13:05:00.035 [info] Got login result 404
+2025-04-03 13:05:00.183 [info] Beginning of Login Poll
+2025-04-03 13:05:00.217 [info] Got login result 404
+2025-04-03 13:05:00.384 [info] Beginning of Login Poll
+2025-04-03 13:05:00.418 [info] Got login result 404
+2025-04-03 13:05:00.583 [info] Beginning of Login Poll
+2025-04-03 13:05:00.619 [info] Got login result 404
+2025-04-03 13:05:00.783 [info] Beginning of Login Poll
+2025-04-03 13:05:00.815 [info] Got login result 404
+2025-04-03 13:05:00.983 [info] Beginning of Login Poll
+2025-04-03 13:05:01.024 [info] Got login result 404
+2025-04-03 13:05:01.182 [info] Beginning of Login Poll
+2025-04-03 13:05:01.215 [info] Got login result 404
+2025-04-03 13:05:01.383 [info] Beginning of Login Poll
+2025-04-03 13:05:01.422 [info] Got login result 404
+2025-04-03 13:05:01.583 [info] Beginning of Login Poll
+2025-04-03 13:05:01.621 [info] Got login result 404
+2025-04-03 13:05:01.783 [info] Beginning of Login Poll
+2025-04-03 13:05:01.819 [info] Got login result 404
+2025-04-03 13:05:01.983 [info] Beginning of Login Poll
+2025-04-03 13:05:02.020 [info] Got login result 404
+2025-04-03 13:05:02.182 [info] Beginning of Login Poll
+2025-04-03 13:05:02.215 [info] Got login result 404
+2025-04-03 13:05:02.383 [info] Beginning of Login Poll
+2025-04-03 13:05:02.416 [info] Got login result 404
+2025-04-03 13:05:02.583 [info] Beginning of Login Poll
+2025-04-03 13:05:02.618 [info] Got login result 404
+2025-04-03 13:05:02.782 [info] Beginning of Login Poll
+2025-04-03 13:05:02.815 [info] Got login result 404
+2025-04-03 13:05:02.982 [info] Beginning of Login Poll
+2025-04-03 13:05:03.018 [info] Got login result 404
+2025-04-03 13:05:03.182 [info] Beginning of Login Poll
+2025-04-03 13:05:03.225 [info] Got login result 404
+2025-04-03 13:05:03.382 [info] Beginning of Login Poll
+2025-04-03 13:05:03.418 [info] Got login result 404
+2025-04-03 13:05:03.583 [info] Beginning of Login Poll
+2025-04-03 13:05:03.633 [info] Got login result 404
+2025-04-03 13:05:03.783 [info] Beginning of Login Poll
+2025-04-03 13:05:03.865 [info] Got login result 404
+2025-04-03 13:05:03.983 [info] Beginning of Login Poll
+2025-04-03 13:05:04.027 [info] Got login result 404
+2025-04-03 13:05:04.182 [info] Beginning of Login Poll
+2025-04-03 13:05:04.214 [info] Got login result 404
+2025-04-03 13:05:04.382 [info] Beginning of Login Poll
+2025-04-03 13:05:04.414 [info] Got login result 404
+2025-04-03 13:05:04.583 [info] Beginning of Login Poll
+2025-04-03 13:05:04.620 [info] Got login result 404
+2025-04-03 13:05:04.783 [info] Beginning of Login Poll
+2025-04-03 13:05:04.816 [info] Got login result 404
+2025-04-03 13:05:04.982 [info] Beginning of Login Poll
+2025-04-03 13:05:05.035 [info] Got login result 404
+2025-04-03 13:05:05.183 [info] Beginning of Login Poll
+2025-04-03 13:05:05.221 [info] Got login result 404
+2025-04-03 13:05:05.382 [info] Beginning of Login Poll
+2025-04-03 13:05:05.415 [info] Got login result 404
+2025-04-03 13:05:05.582 [info] Beginning of Login Poll
+2025-04-03 13:05:05.615 [info] Got login result 404
+2025-04-03 13:05:05.782 [info] Beginning of Login Poll
+2025-04-03 13:05:05.813 [info] Got login result 404
+2025-04-03 13:05:05.982 [info] Beginning of Login Poll
+2025-04-03 13:05:06.018 [info] Got login result 404
+2025-04-03 13:05:06.183 [info] Beginning of Login Poll
+2025-04-03 13:05:06.220 [info] Got login result 404
+2025-04-03 13:05:06.383 [info] Beginning of Login Poll
+2025-04-03 13:05:06.421 [info] Got login result 404
+2025-04-03 13:05:06.582 [info] Beginning of Login Poll
+2025-04-03 13:05:06.616 [info] Got login result 404
+2025-04-03 13:05:06.783 [info] Beginning of Login Poll
+2025-04-03 13:05:06.822 [info] Got login result 404
+2025-04-03 13:05:06.983 [info] Beginning of Login Poll
+2025-04-03 13:05:07.024 [info] Got login result 404
+2025-04-03 13:05:07.183 [info] Beginning of Login Poll
+2025-04-03 13:05:07.222 [info] Got login result 404
+2025-04-03 13:05:07.383 [info] Beginning of Login Poll
+2025-04-03 13:05:07.414 [info] Got login result 404
+2025-04-03 13:05:07.583 [info] Beginning of Login Poll
+2025-04-03 13:05:07.627 [info] Got login result 404
+2025-04-03 13:05:07.782 [info] Beginning of Login Poll
+2025-04-03 13:05:07.838 [info] Got login result 404
+2025-04-03 13:05:07.983 [info] Beginning of Login Poll
+2025-04-03 13:05:08.023 [info] Got login result 404
+2025-04-03 13:05:08.183 [info] Beginning of Login Poll
+2025-04-03 13:05:08.221 [info] Got login result 404
+2025-04-03 13:05:08.382 [info] Beginning of Login Poll
+2025-04-03 13:05:08.414 [info] Got login result 404
+2025-04-03 13:05:08.583 [info] Beginning of Login Poll
+2025-04-03 13:05:08.621 [info] Got login result 404
+2025-04-03 13:05:08.783 [info] Beginning of Login Poll
+2025-04-03 13:05:08.821 [info] Got login result 404
+2025-04-03 13:05:08.982 [info] Beginning of Login Poll
+2025-04-03 13:05:09.023 [info] Got login result 404
+2025-04-03 13:05:09.184 [info] Beginning of Login Poll
+2025-04-03 13:05:09.222 [info] Got login result 404
+2025-04-03 13:05:09.384 [info] Beginning of Login Poll
+2025-04-03 13:05:09.422 [info] Got login result 404
+2025-04-03 13:05:09.582 [info] Beginning of Login Poll
+2025-04-03 13:05:09.618 [info] Got login result 404
+2025-04-03 13:05:09.783 [info] Beginning of Login Poll
+2025-04-03 13:05:09.820 [info] Got login result 404
+2025-04-03 13:05:09.983 [info] Beginning of Login Poll
+2025-04-03 13:05:10.020 [info] Got login result 404
+2025-04-03 13:05:10.183 [info] Beginning of Login Poll
+2025-04-03 13:05:10.222 [info] Got login result 404
+2025-04-03 13:05:10.383 [info] Beginning of Login Poll
+2025-04-03 13:05:10.417 [info] Got login result 404
+2025-04-03 13:05:10.583 [info] Beginning of Login Poll
+2025-04-03 13:05:10.615 [info] Got login result 404
+2025-04-03 13:05:10.782 [info] Beginning of Login Poll
+2025-04-03 13:05:10.815 [info] Got login result 404
+2025-04-03 13:05:10.983 [info] Beginning of Login Poll
+2025-04-03 13:05:11.023 [info] Got login result 404
+2025-04-03 13:05:11.183 [info] Beginning of Login Poll
+2025-04-03 13:05:11.218 [info] Got login result 404
+2025-04-03 13:05:11.382 [info] Beginning of Login Poll
+2025-04-03 13:05:11.420 [info] Got login result 404
+2025-04-03 13:05:11.582 [info] Beginning of Login Poll
+2025-04-03 13:05:11.615 [info] Got login result 404
+2025-04-03 13:05:11.782 [info] Beginning of Login Poll
+2025-04-03 13:05:11.816 [info] Got login result 200
+2025-04-03 13:05:11.816 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKUVk5VDNXRVJIMjRNRVJRTkREN0RUWFEiLCJ0aW1lIjoiMTc0MzY5OTkxMSIsInJhbmRvbW5lc3MiOiI1NmM5ZjJkYS1jZWQyLTRjZjciLCJleHAiOjE3NDg4ODM5MTEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.CdmD0qm2jYx2uZvCpxeL3Cni_WyOjgSYaHPsCKgl_xg","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKUVk5VDNXRVJIMjRNRVJRTkREN0RUWFEiLCJ0aW1lIjoiMTc0MzY5OTkxMSIsInJhbmRvbW5lc3MiOiI1NmM5ZjJkYS1jZWQyLTRjZjciLCJleHAiOjE3NDg4ODM5MTEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.CdmD0qm2jYx2uZvCpxeL3Cni_WyOjgSYaHPsCKgl_xg","challenge":"vLwWR3UjhWjFJ0IfjlzK9jVhRbusnhH54e0jqOvbfg0","authId":"google-oauth2|user_01JQY9T3WERH24MERQNDD7DTXQ","uuid":"183dbe77-4061-44d5-ae7c-53e27774f92c"}
+2025-04-03 13:05:11.982 [info] Beginning of Login Poll
+2025-04-03 13:05:12.016 [info] Got login result 200
+2025-04-03 13:05:12.017 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKUVk5VDNXRVJIMjRNRVJRTkREN0RUWFEiLCJ0aW1lIjoiMTc0MzY5OTkxMiIsInJhbmRvbW5lc3MiOiJhN2U4NWJjOS0wZGIwLTQ2OTgiLCJleHAiOjE3NDg4ODM5MTIsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.rhoixIFBl0HYxaqHqhXu6SkELoGZy1NgSvgnMrGMPzw","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKUVk5VDNXRVJIMjRNRVJRTkREN0RUWFEiLCJ0aW1lIjoiMTc0MzY5OTkxMiIsInJhbmRvbW5lc3MiOiJhN2U4NWJjOS0wZGIwLTQ2OTgiLCJleHAiOjE3NDg4ODM5MTIsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.rhoixIFBl0HYxaqHqhXu6SkELoGZy1NgSvgnMrGMPzw","challenge":"vLwWR3UjhWjFJ0IfjlzK9jVhRbusnhH54e0jqOvbfg0","authId":"google-oauth2|user_01JQY9T3WERH24MERQNDD7DTXQ","uuid":"183dbe77-4061-44d5-ae7c-53e27774f92c"}
+2025-04-03 13:05:12.182 [info] Beginning of Login Poll
+2025-04-03 13:05:12.214 [info] Got login result 200
+2025-04-03 13:05:12.214 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKUVk5VDNXRVJIMjRNRVJRTkREN0RUWFEiLCJ0aW1lIjoiMTc0MzY5OTkxMiIsInJhbmRvbW5lc3MiOiIzYjM1ZGRjMy04ZjU4LTQ5ZDgiLCJleHAiOjE3NDg4ODM5MTIsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.feEeS2msH9Ojw6chCjHL8EyF2jr3-2tI3mPzS4hzTUs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKUVk5VDNXRVJIMjRNRVJRTkREN0RUWFEiLCJ0aW1lIjoiMTc0MzY5OTkxMiIsInJhbmRvbW5lc3MiOiIzYjM1ZGRjMy04ZjU4LTQ5ZDgiLCJleHAiOjE3NDg4ODM5MTIsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.feEeS2msH9Ojw6chCjHL8EyF2jr3-2tI3mPzS4hzTUs","challenge":"vLwWR3UjhWjFJ0IfjlzK9jVhRbusnhH54e0jqOvbfg0","authId":"google-oauth2|user_01JQY9T3WERH24MERQNDD7DTXQ","uuid":"183dbe77-4061-44d5-ae7c-53e27774f92c"}
+2025-04-03 13:05:12.382 [info] Beginning of Login Poll
+2025-04-03 13:05:12.418 [info] Got login result 200
+2025-04-03 13:05:12.424 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKUVk5VDNXRVJIMjRNRVJRTkREN0RUWFEiLCJ0aW1lIjoiMTc0MzY5OTkxMiIsInJhbmRvbW5lc3MiOiJiMDI1NDdjOC1lNjA5LTQ2MDUiLCJleHAiOjE3NDg4ODM5MTIsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.G87gXIciFh9nlpHe0Og0y1Wq2i8OAIZpD0fda2rHBFY","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKUVk5VDNXRVJIMjRNRVJRTkREN0RUWFEiLCJ0aW1lIjoiMTc0MzY5OTkxMiIsInJhbmRvbW5lc3MiOiJiMDI1NDdjOC1lNjA5LTQ2MDUiLCJleHAiOjE3NDg4ODM5MTIsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.G87gXIciFh9nlpHe0Og0y1Wq2i8OAIZpD0fda2rHBFY","challenge":"vLwWR3UjhWjFJ0IfjlzK9jVhRbusnhH54e0jqOvbfg0","authId":"google-oauth2|user_01JQY9T3WERH24MERQNDD7DTXQ","uuid":"183dbe77-4061-44d5-ae7c-53e27774f92c"}
+2025-04-03 13:05:12.582 [info] Beginning of Login Poll
+2025-04-03 13:05:12.613 [info] Got login result 200
+2025-04-03 13:05:12.614 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKUVk5VDNXRVJIMjRNRVJRTkREN0RUWFEiLCJ0aW1lIjoiMTc0MzY5OTkxMiIsInJhbmRvbW5lc3MiOiJjNThhNDYwMy05NDc4LTQ5YmUiLCJleHAiOjE3NDg4ODM5MTIsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.LHfHKGu8L6IK08C8ZBDnu4vqIT7D4MjzwjvYAROxR1I","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKUVk5VDNXRVJIMjRNRVJRTkREN0RUWFEiLCJ0aW1lIjoiMTc0MzY5OTkxMiIsInJhbmRvbW5lc3MiOiJjNThhNDYwMy05NDc4LTQ5YmUiLCJleHAiOjE3NDg4ODM5MTIsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.LHfHKGu8L6IK08C8ZBDnu4vqIT7D4MjzwjvYAROxR1I","challenge":"vLwWR3UjhWjFJ0IfjlzK9jVhRbusnhH54e0jqOvbfg0","authId":"google-oauth2|user_01JQY9T3WERH24MERQNDD7DTXQ","uuid":"183dbe77-4061-44d5-ae7c-53e27774f92c"}
+2025-04-03 13:33:42.021 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async c3t.performDefaultModelRequest (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:593:38078)
+    at async Promise.all (index 1)
+    at async hjt.withSemaphore (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:892:34502) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:33:42.932 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:34:42.933 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:35:42.932 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:36:42.933 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:37:42.932 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:38:42.020 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async c3t.performDefaultModelRequest (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:593:38078)
+    at async Promise.all (index 1)
+    at async hjt.withSemaphore (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:892:34502) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:38:42.932 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:39:42.932 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:40:42.933 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:41:42.932 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:42:42.961 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:43:42.022 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async c3t.performDefaultModelRequest (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:593:38078)
+    at async Promise.all (index 1)
+    at async hjt.withSemaphore (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:892:34502) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:43:42.933 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:44:42.933 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:45:42.933 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:46:42.958 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:47:42.943 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:48:42.020 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async c3t.performDefaultModelRequest (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:593:38078)
+    at async Promise.all (index 1)
+    at async hjt.withSemaphore (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:892:34502) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:48:42.932 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:49:42.932 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 13:50:42.932 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2404:131870)
+    at async Object.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:15147)
+    at async MQe.getTeams (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:137451)
+    at async MQe.refreshMembershipType (vscode-file://vscode-app/home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:98:131378) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-04-03 14:01:26.345 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

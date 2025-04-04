@@ -1,0 +1,4 @@
+2025-04-03 14:34:22.935 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.48.6/253751b6a7cd4830f5a8eba237d703a9aa68a9384d89d2358d7a9e8fcb2cbc7e/stable
+2025-04-03 14:34:22.935 [info] update#setState idle
+2025-04-03 14:34:52.898 [info] update#setState checking for updates
+2025-04-03 14:34:52.947 [info] update#setState available for download

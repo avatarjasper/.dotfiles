@@ -1,0 +1,12 @@
+[Default Applications]
+application/epub+zip=xreader.desktop
+application/pdf=org.gnome.Evince.desktop
+inode/directory=xfce4-file-manager.desktop
+x-scheme-handler/trash=xfce4-file-manager.desktop
+
+[Added Associations]
+application/epub+zip=com.github.johnfactotum.Foliate.desktop;atril.desktop;org.gnome.Evince.desktop;FBReader.desktop;xreader.desktop;
+application/pdf=com.github.johnfactotum.Foliate.desktop;org.gnome.Evince.desktop;
+inode/directory=xfce4-file-manager.desktop;
+x-scheme-handler/trash=xfce4-file-manager.desktop;
+application/x-shellscript=nemo-autorun-software.desktop;

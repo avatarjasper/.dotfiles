@@ -1,0 +1,8 @@
+2025-04-02 15:09:12.300 [info] Getting Manifest... vscodevim.vim
+2025-04-02 15:09:12.926 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aj/.cursor/extensions/extensions.json","path":"/home/aj/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.48.6","date":"2025-03-31T05:05:28.011Z","vscodeVersion":"1.96.2"}}
+2025-04-02 15:09:12.973 [info] Started downloading extension: vscodevim.vim 1.29.0 file:///home/aj/.config/Cursor/CachedExtensionVSIXs/cursor-vscodevim.vim-1.29.0-universal
+2025-04-02 15:09:27.509 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-04-02 15:09:27.509 [info] Extension signature verification is not done: vscodevim.vim
+2025-04-02 15:09:27.576 [info] Extracted extension to file:///home/aj/.cursor/extensions/vscodevim.vim-1.29.0-universal: vscodevim.vim
+2025-04-02 15:09:28.663 [info] Renamed to /home/aj/.cursor/extensions/vscodevim.vim-1.29.0-universal
+2025-04-02 15:09:28.802 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/aj/.cursor/extensions/extensions.json

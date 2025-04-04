@@ -1,0 +1,8 @@
+2025-04-03 13:03:44.099 [info] Using repo backend url https://repo42.cursor.sh
+2025-04-03 13:03:46.042 [error] Failed to get git graph client
+2025-04-03 13:05:13.032 [info] Using repo backend url https://repo42.cursor.sh
+2025-04-03 13:08:47.881 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-04-03 13:50:04.053 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT
+2025-04-03 13:50:04.053 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT
+2025-04-03 13:50:04.053 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT
+2025-04-03 13:50:04.053 [error] Failed to check if git graph is enabled [unavailable] read ETIMEDOUT

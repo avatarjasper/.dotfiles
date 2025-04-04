@@ -193,7 +193,7 @@ bar {
         status_command i3status -c /home/$USER/.config/i3status/i3status.conf
 	i3bar_command i3bar --transparency
 	tray_output none	
-	font pango: Source Code Pro 10
+	font pango: Source Code Pro 11
 	colors {
                 #background $bgcolor
                 background $bar-color
@@ -229,5 +229,7 @@ exec --no-startup-id i3-msg 'workspace "1:  Terminal"; exec /usr/bin/terminat
 exec --no-startup-id i3-msg 'workspace "2:  Firefox"; exec /usr/bin/firefox'
 
 exec xscreensaver
+
+exec --no-startup-id i3-battery-popup -n -D -L 20 -l 15 -t 30s
 
 

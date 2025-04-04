@@ -1,0 +1,15 @@
+2025-04-03 13:03:41.459 [info] Added views:outline in workbench.view.explorer
+2025-04-03 13:03:41.459 [info] Added views:workbench.view.search in workbench.view.search
+2025-04-03 13:03:41.459 [info] Added views:workbench.scm in workbench.view.scm
+2025-04-03 13:03:41.459 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2025-04-03 13:03:41.459 [info] Added views:workbench.panel.output in workbench.panel.output
+2025-04-03 13:03:41.459 [info] Added views:terminal in terminal
+2025-04-03 13:03:41.459 [info] Added views:workbench.views.bugbot in workbench.view.bugbot
+2025-04-03 13:03:41.459 [info] Added views:timeline in workbench.view.explorer
+2025-04-03 13:03:41.459 [info] Added views:workbench.panel.aichat.view.fb919927-0b88-408d-81a8-15c84b6f2f8c in workbench.panel.aichat.d6a66db6-ab93-42d2-a5e1-407a3c2307b9
+2025-04-03 13:03:41.459 [info] Added views:workbench.explorer.emptyView in workbench.view.explorer
+2025-04-03 13:03:41.789 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2025-04-03 13:03:42.312 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2025-04-03 13:03:42.961 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2025-04-03 13:07:32.233 [info] Added views:workbench.panel.aichat.view.668bbb29-21d5-4e77-8973-3b7da324172c in workbench.panel.aichat.d6a66db6-ab93-42d2-a5e1-407a3c2307b9
+2025-04-03 13:07:32.249 [info] Removed views:workbench.panel.aichat.view.fb919927-0b88-408d-81a8-15c84b6f2f8c from workbench.panel.aichat.d6a66db6-ab93-42d2-a5e1-407a3c2307b9

@@ -1,0 +1,12 @@
+2025-04-03 14:34:27.041 [info] Deleted uninstalled extension from disk vscodevim.vim /home/aj/.cursor/extensions/vscodevim.vim-1.29.0-universal
+2025-04-03 14:34:30.220 [info] Getting Manifest... vscodevim.vim
+2025-04-03 14:34:30.628 [info] Installing extension: vscodevim.vim {"productVersion":{"version":"0.48.6","date":"2025-03-31T05:05:28.011Z","vscodeVersion":"1.96.2"},"donotVerifySignature":true,"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aj/.cursor/extensions/extensions.json","path":"/home/aj/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-04-03 14:34:30.689 [info] Started downloading extension: vscodevim.vim 1.29.0 file:///home/aj/.config/Cursor/CachedExtensionVSIXs/cursor-vscodevim.vim-1.29.0
+2025-04-03 14:34:31.028 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/aj/.cursor/extensions/extensions.json
+2025-04-03 14:34:31.085 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aj/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aj/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40451)
+    at As (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40558)
+    at ao.ib (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at ao.stat (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async hu.stat (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async ru.Ab (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)

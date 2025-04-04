@@ -1,0 +1,13 @@
+# GIMP gimp-clone-tool options
+
+(foreground
+    (color "R'G'B'A float" 16 "\0\0\200\77\0\0\200\77\0\0\200\77\0\0\200\77" 0))
+(background
+    (color "R'G'B'A float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+(brush "2. Hardness 100")
+(dynamics "Pressure Size")
+(pattern "Pine")
+(palette "Color History")
+(brush-size 27)
+
+# end of gimp-clone-tool options

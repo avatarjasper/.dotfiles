@@ -1,0 +1,63 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "253751b6a7cd4830f5a8eba237d703a9aa68a9384d89d2358d7a9e8fcb2cbc7e",
+    "telemetry.macMachineId": "e7b57d08f6fd4ceac175394045e84d370aedc9e7fd87482c8e0ae0da1182be85",
+    "telemetry.devDeviceId": "69af0a10-2756-412d-95f0-6032f34fa10d",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1743620925783"
+            }
+        ]
+    },
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1743620925783": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/aj/.config/Cursor/Backups/1743620925783",
+            "uiState": {
+                "mode": 0,
+                "x": 25,
+                "y": 43,
+                "width": 1870,
+                "height": 986
+            }
+        },
+        "openedWindows": []
+    },
+    "windowControlHeight": 35,
+    "theme": "vs-dark",
+    "themeBackground": "#1a1a1a",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "rgba(204, 204, 204, 0.87)",
+            "background": "#1a1a1a",
+            "editorBackground": "#1a1a1a",
+            "titleBarBackground": "#141414",
+            "titleBarBorder": "rgba(255, 255, 255, 0.05)",
+            "activityBarBackground": "#141414",
+            "sideBarBackground": "#141414",
+            "sideBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarBackground": "#141414",
+            "statusBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarNoFolderBackground": "#141414"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
+}

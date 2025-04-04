@@ -1,0 +1,15 @@
+2025-04-02 15:08:50.331 [info] Added views:outline in workbench.view.explorer
+2025-04-02 15:08:50.331 [info] Added views:workbench.view.search in workbench.view.search
+2025-04-02 15:08:50.331 [info] Added views:workbench.scm in workbench.view.scm
+2025-04-02 15:08:50.331 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2025-04-02 15:08:50.331 [info] Added views:workbench.panel.output in workbench.panel.output
+2025-04-02 15:08:50.331 [info] Added views:terminal in terminal
+2025-04-02 15:08:50.331 [info] Added views:workbench.views.bugbot in workbench.view.bugbot
+2025-04-02 15:08:50.331 [info] Added views:timeline in workbench.view.explorer
+2025-04-02 15:08:50.331 [info] Added views:workbench.panel.aichat.view.d0ae0f1b-63bc-44a8-a9fe-309bc03b1a5b in workbench.panel.aichat.d6a66db6-ab93-42d2-a5e1-407a3c2307b9
+2025-04-02 15:08:50.331 [info] Added views:workbench.explorer.emptyView in workbench.view.explorer
+2025-04-02 15:08:52.160 [info] Added views:workbench.debug.variablesView,workbench.debug.watchExpressionsView,workbench.debug.callStackView,workbench.debug.breakPointsView in workbench.view.debug
+2025-04-02 15:08:57.911 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2025-04-02 15:08:58.451 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2025-04-02 15:08:58.457 [info] Removed views:workbench.debug.breakPointsView,workbench.debug.callStackView,workbench.debug.watchExpressionsView,workbench.debug.variablesView from workbench.view.debug
+2025-04-02 15:08:58.458 [info] Added views:workbench.debug.welcome in workbench.view.debug

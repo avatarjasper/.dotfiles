@@ -1,0 +1,22 @@
+2025-04-03 13:03:45.123 [info] Getting Manifest... vscodevim.vim
+2025-04-03 13:03:45.515 [info] Installing extension: vscodevim.vim {"productVersion":{"version":"0.48.6","date":"2025-03-31T05:05:28.011Z","vscodeVersion":"1.96.2"},"donotVerifySignature":true,"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aj/.cursor/extensions/extensions.json","path":"/home/aj/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-04-03 13:03:45.566 [info] Started downloading extension: vscodevim.vim 1.29.0 file:///home/aj/.config/Cursor/CachedExtensionVSIXs/cursor-vscodevim.vim-1.29.0
+2025-04-03 13:03:45.790 [info] Extracted extension to file:///home/aj/.cursor/extensions/vscodevim.vim-1.29.0: vscodevim.vim
+2025-04-03 13:03:45.808 [info] Renamed to /home/aj/.cursor/extensions/vscodevim.vim-1.29.0
+2025-04-03 13:03:45.833 [info] Marked extension as uninstalled vscodevim.vim-1.29.0-universal
+2025-04-03 13:03:45.835 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/aj/.cursor/extensions/extensions.json
+2025-04-03 13:03:45.892 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aj/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aj/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40451)
+    at As (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40558)
+    at ao.ib (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at ao.stat (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async hu.stat (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async ru.Ab (file:///home/aj/Apps/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-04-03 13:03:45.909 [info] Extensions added from another source vscodevim.vim vscode-userdata:/home/aj/.cursor/extensions/extensions.json
+2025-04-03 13:04:09.713 [info] Getting Manifest... vscodevim.vim
+2025-04-03 13:04:10.249 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aj/.cursor/extensions/extensions.json","path":"/home/aj/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.48.6","date":"2025-03-31T05:05:28.011Z","vscodeVersion":"1.96.2"}}
+2025-04-03 13:04:10.791 [error] Error while installing the extension vscodevim.vim Cannot read the extension from /home/aj/.cursor/extensions/vscodevim.vim-1.29.0 vscode-userdata:/home/aj/.cursor/extensions/extensions.json
+2025-04-03 13:33:45.476 [error] [network] #10: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-03 13:38:45.495 [error] [network] #11: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-03 13:43:45.514 [error] [network] #12: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-03 13:48:45.534 [error] [network] #13: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED

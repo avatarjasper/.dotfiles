@@ -1,0 +1,34 @@
+# settings
+
+(GimpGegl-gegl-dropshadow-config "2025-04-01 16:07:45"
+    (time 1743538065)
+    (x 0)
+    (y 0)
+    (radius 198.05000000000001)
+    (grow-shape circle)
+    (grow-radius 24)
+    (color
+        (color "R'G'B'A float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+    (opacity 0.5))
+(GimpGegl-gegl-dropshadow-config "2025-04-01 15:19:48"
+    (time 1743535188)
+    (x 0)
+    (y 0)
+    (radius 128.30000000000001)
+    (grow-shape circle)
+    (grow-radius 20)
+    (color
+        (color "HSV float" 12 "q\333\136\77\0\0\200\77\0\0\200\77" 0))
+    (opacity 1))
+(GimpGegl-gegl-dropshadow-config "2025-04-01 15:17:51"
+    (time 1743535071)
+    (x 0)
+    (y 0)
+    (radius 123.37)
+    (grow-shape circle)
+    (grow-radius 17)
+    (color
+        (color "HSV float" 12 "m\201Z\77\0\0\200\77\0\0\200\77" 0))
+    (opacity 1))
+
+# end of settings

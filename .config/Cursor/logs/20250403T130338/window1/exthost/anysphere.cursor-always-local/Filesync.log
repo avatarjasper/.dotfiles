@@ -1,0 +1,130 @@
+2025-04-03 13:03:44.099 [error] Failed to check if file sync is enabled for user {}
+2025-04-03 13:03:44.099 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-03 13:03:44.099 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-03 13:03:44.333 [info] [registerEventListeners] Registering event listeners
+2025-04-03 13:03:45.166 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"Error","code":16,"metadata":{},"details":[{"type":"aiserver.v1.ErrorDetails","value":{"0":8,"1":2,"2":18,"3":85,"4":10,"5":14,"6":78,"7":111,"8":116,"9":32,"10":108,"11":111,"12":103,"13":103,"14":101,"15":100,"16":32,"17":105,"18":110,"19":46,"20":18,"21":65,"22":78,"23":111,"24":116,"25":32,"26":108,"27":111,"28":103,"29":103,"30":101,"31":100,"32":32,"33":105,"34":110,"35":46,"36":32,"37":73,"38":102,"39":32,"40":121,"41":111,"42":117,"43":32,"44":97,"45":114,"46":101,"47":32,"48":108,"49":111,"50":103,"51":103,"52":101,"53":100,"54":32,"55":105,"56":110,"57":44,"58":32,"59":116,"60":114,"61":121,"62":32,"63":108,"64":111,"65":103,"66":103,"67":105,"68":110,"69":103,"70":32,"71":111,"72":117,"73":116,"74":32,"75":97,"76":110,"77":100,"78":32,"79":98,"80":97,"81":99,"82":107,"83":32,"84":105,"85":110,"86":46,"87":32,"88":0,"89":24,"90":1},"debug":{"error":"ERROR_NOT_LOGGED_IN","details":{"title":"Not logged in.","detail":"Not logged in. If you are logged in, try logging out and back in.","isRetryable":false},"isExpected":true}}]}
+2025-04-03 13:03:45.167 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-03 13:03:45.167 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-03 13:05:12.821 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-03 13:05:12.821 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-03 13:05:12.821 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-03 13:05:12.821 [info] File sync enabled status: false
+2025-04-03 13:05:13.147 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-03 13:05:13.170 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-03 13:05:13.189 [info] Fetched fsConfig in 41.286066000000574ms
+2025-04-03 13:05:13.189 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-03 13:05:13.189 [info] File sync enabled status: true
+2025-04-03 13:05:13.189 [info] Starting sync of visible tabs
+2025-04-03 13:05:13.189 [info] Synced all visible tabs in 0.04999899999529589ms
+2025-04-03 13:05:13.212 [info] Fetched fsConfig in 40.69117800000822ms
+2025-04-03 13:05:13.212 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-03 13:05:13.212 [info] File sync enabled status: true
+2025-04-03 13:05:13.212 [info] Starting sync of visible tabs
+2025-04-03 13:05:13.212 [info] Synced all visible tabs in 0.1800119999970775ms
+2025-04-03 13:05:14.035 [info] Starting sync of visible tabs
+2025-04-03 13:05:14.035 [info] Synced all visible tabs in 0.3732680000102846ms
+2025-04-03 13:05:14.077 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-03 13:05:14.121 [info] Fetched fsConfig in 44.17037499998696ms
+2025-04-03 13:05:14.121 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-03 13:07:51.622 [info] Handled visible editors change in 0.7099400000006426ms
+2025-04-03 13:11:38.129 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-03 13:11:38.171 [info] Fetched fsConfig in 40.91562800004613ms
+2025-04-03 13:11:38.171 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-03 13:11:38.171 [info] File sync enabled status: true
+2025-04-03 13:11:38.171 [info] Starting sync of visible tabs
+2025-04-03 13:11:38.171 [info] Synced all visible tabs in 0.22092800005339086ms
+2025-04-03 13:12:36.949 [info] Uploaded file Untitled-1 modelVersion=118 in 37.45216900005471ms
+2025-04-03 13:12:38.528 [info] Synced file Untitled-1 modelVersion=125 in 41.56569700001273ms
+2025-04-03 13:12:39.367 [info] Synced file Untitled-1 modelVersion=134 in 39.100657000089996ms
+2025-04-03 13:12:39.697 [info] Synced file Untitled-1 modelVersion=139 in 39.17941099999007ms
+2025-04-03 13:12:40.083 [info] Synced file Untitled-1 modelVersion=141 in 39.95904099999461ms
+2025-04-03 13:12:40.376 [info] Synced file Untitled-1 modelVersion=143 in 41.01406199997291ms
+2025-04-03 13:12:41.163 [info] Synced file Untitled-1 modelVersion=151 in 39.67857400001958ms
+2025-04-03 13:12:41.553 [info] Synced file Untitled-1 modelVersion=156 in 38.76877700001933ms
+2025-04-03 13:12:42.094 [info] Synced file Untitled-1 modelVersion=161 in 42.555102000012994ms
+2025-04-03 13:12:43.406 [info] Synced file Untitled-1 modelVersion=175 in 37.21637699997518ms
+2025-04-03 13:12:43.937 [info] Synced file Untitled-1 modelVersion=179 in 38.781900999951176ms
+2025-04-03 13:12:45.659 [info] Synced file Untitled-1 modelVersion=199 in 39.874603000003844ms
+2025-04-03 13:12:45.660 [info] Synced file Untitled-1 modelVersion=199 in 45.67163699993398ms
+2025-04-03 13:12:45.661 [info] Synced file Untitled-1 modelVersion=199 in 48.63206000009086ms
+2025-04-03 13:12:46.747 [info] Synced file Untitled-1 modelVersion=211 in 42.73922200000379ms
+2025-04-03 13:12:47.846 [info] Synced file Untitled-1 modelVersion=221 in 37.389060999965295ms
+2025-04-03 13:12:47.847 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-03 13:12:47.889 [info] Fetched fsConfig in 41.243593999999575ms
+2025-04-03 13:12:47.889 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-03 13:12:47.889 [info] File sync enabled status: true
+2025-04-03 13:12:47.889 [info] Starting sync of visible tabs
+2025-04-03 13:12:47.889 [info] Synced all visible tabs in 0.15247099997941405ms
+2025-04-03 13:14:33.155 [info] Synced file Untitled-1 modelVersion=222 in 153.25491899996996ms
+2025-04-03 13:14:34.463 [info] Synced file Untitled-1 modelVersion=229 in 40.3052509999834ms
+2025-04-03 13:14:35.367 [info] Synced file Untitled-1 modelVersion=239 in 38.27247199998237ms
+2025-04-03 13:14:36.474 [info] Synced file Untitled-1 modelVersion=249 in 40.17058099992573ms
+2025-04-03 13:14:36.913 [info] Synced file Untitled-1 modelVersion=256 in 41.85152499994729ms
+2025-04-03 13:14:37.470 [info] Synced file Untitled-1 modelVersion=259 in 40.37413800007198ms
+2025-04-03 13:14:37.861 [info] Synced file Untitled-1 modelVersion=261 in 45.31293299992103ms
+2025-04-03 13:14:38.210 [info] Synced file Untitled-1 modelVersion=266 in 45.07435000000987ms
+2025-04-03 13:14:38.591 [info] Synced file Untitled-1 modelVersion=271 in 37.709953999961726ms
+2025-04-03 13:14:39.638 [info] Synced file Untitled-1 modelVersion=281 in 41.719662000075914ms
+2025-04-03 13:14:40.999 [info] Synced file Untitled-1 modelVersion=296 in 47.47774699993897ms
+2025-04-03 13:14:41.519 [info] Synced file Untitled-1 modelVersion=298 in 42.521676999982446ms
+2025-04-03 13:14:42.428 [info] Synced file Untitled-1 modelVersion=308 in 45.47018499998376ms
+2025-04-03 13:14:43.641 [info] Synced file Untitled-1 modelVersion=324 in 44.56032899999991ms
+2025-04-03 13:14:44.123 [info] Synced file Untitled-1 modelVersion=328 in 37.86962400004268ms
+2025-04-03 13:14:44.516 [info] Synced file Untitled-1 modelVersion=331 in 39.84317199990619ms
+2025-04-03 13:14:44.908 [info] Synced file Untitled-1 modelVersion=333 in 38.81355600000825ms
+2025-04-03 13:14:45.822 [info] Synced file Untitled-1 modelVersion=340 in 40.467176000005566ms
+2025-04-03 13:14:46.327 [info] Synced file Untitled-1 modelVersion=344 in 55.14782600000035ms
+2025-04-03 13:14:46.643 [info] Synced file Untitled-1 modelVersion=346 in 40.387330000055954ms
+2025-04-03 13:14:46.961 [info] Synced file Untitled-1 modelVersion=348 in 37.589276999933645ms
+2025-04-03 13:14:47.223 [info] Synced file Untitled-1 modelVersion=349 in 38.494213000056334ms
+2025-04-03 13:14:47.638 [info] Synced file Untitled-1 modelVersion=352 in 42.72434300009627ms
+2025-04-03 13:14:48.104 [info] Synced file Untitled-1 modelVersion=359 in 42.28967300010845ms
+2025-04-03 13:14:48.491 [info] Synced file Untitled-1 modelVersion=360 in 39.27441800001543ms
+2025-04-03 13:14:48.930 [info] Synced file Untitled-1 modelVersion=367 in 50.98346000001766ms
+2025-04-03 13:14:49.549 [info] Synced file Untitled-1 modelVersion=375 in 41.33938600006513ms
+2025-04-03 13:14:50.191 [info] Synced file Untitled-1 modelVersion=383 in 39.04365099989809ms
+2025-04-03 13:14:50.714 [info] Synced file Untitled-1 modelVersion=387 in 39.57726599997841ms
+2025-04-03 13:14:51.057 [info] Synced file Untitled-1 modelVersion=392 in 44.74716599995736ms
+2025-04-03 13:14:51.669 [info] Synced file Untitled-1 modelVersion=401 in 41.40886900003534ms
+2025-04-03 13:14:52.199 [info] Synced file Untitled-1 modelVersion=406 in 39.44714900001418ms
+2025-04-03 13:14:52.676 [info] Synced file Untitled-1 modelVersion=411 in 40.1207970000105ms
+2025-04-03 13:14:53.935 [info] Synced file Untitled-1 modelVersion=424 in 37.220473999972455ms
+2025-04-03 13:14:54.290 [info] Synced file Untitled-1 modelVersion=426 in 41.853667999967ms
+2025-04-03 13:14:55.121 [info] Synced file Untitled-1 modelVersion=435 in 49.98480999993626ms
+2025-04-03 13:14:55.428 [info] Synced file Untitled-1 modelVersion=438 in 35.94513299991377ms
+2025-04-03 13:14:55.957 [info] Synced file Untitled-1 modelVersion=445 in 39.48196200001985ms
+2025-04-03 13:14:56.276 [info] Synced file Untitled-1 modelVersion=447 in 43.36326399992686ms
+2025-04-03 13:14:56.963 [info] Synced file Untitled-1 modelVersion=454 in 41.40952800004743ms
+2025-04-03 13:14:56.994 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-03 13:14:57.035 [info] Fetched fsConfig in 40.39540499995928ms
+2025-04-03 13:14:57.035 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-03 13:14:57.035 [info] File sync enabled status: true
+2025-04-03 13:14:57.035 [info] Starting sync of visible tabs
+2025-04-03 13:14:57.035 [info] Synced all visible tabs in 0.07789199997205287ms
+2025-04-03 13:15:49.573 [info] Synced file Untitled-1 modelVersion=457 in 40.70666100003291ms
+2025-04-03 13:15:50.201 [info] Synced file Untitled-1 modelVersion=461 in 45.00979699997697ms
+2025-04-03 13:15:50.714 [info] Synced file Untitled-1 modelVersion=462 in 41.53917699994054ms
+2025-04-03 13:15:51.146 [info] Synced file Untitled-1 modelVersion=463 in 37.062947000027634ms
+2025-04-03 13:15:51.421 [info] Synced file Untitled-1 modelVersion=464 in 38.56200500007253ms
+2025-04-03 13:15:51.692 [info] Synced file Untitled-1 modelVersion=465 in 38.8136269999668ms
+2025-04-03 13:15:52.086 [info] Synced file Untitled-1 modelVersion=466 in 42.07142799999565ms
+2025-04-03 13:15:52.515 [info] Synced file Untitled-1 modelVersion=471 in 38.369074999936856ms
+2025-04-03 13:15:53.156 [info] Synced file Untitled-1 modelVersion=473 in 38.96063600003254ms
+2025-04-03 13:15:53.887 [info] Synced file Untitled-1 modelVersion=480 in 40.952055000001565ms
+2025-04-03 13:16:26.785 [info] Synced file Untitled-1 modelVersion=482 in 40.003506999928504ms
+2025-04-03 13:16:29.629 [info] Synced file Untitled-1 modelVersion=502 in 37.42311099998187ms
+2025-04-03 13:16:30.537 [info] Synced file Untitled-1 modelVersion=509 in 41.205760000040755ms
+2025-04-03 13:16:30.547 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-03 13:16:30.588 [info] Fetched fsConfig in 41.12126100005116ms
+2025-04-03 13:16:30.588 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-03 13:16:30.588 [info] File sync enabled status: true
+2025-04-03 13:16:30.588 [info] Starting sync of visible tabs
+2025-04-03 13:16:30.588 [info] Synced all visible tabs in 0.12681599997449666ms
+2025-04-03 13:16:56.339 [info] Synced file Untitled-1 modelVersion=510 in 64.7337379999226ms
+2025-04-03 13:16:57.459 [info] Synced file Untitled-1 modelVersion=511 in 40.599984999978915ms
+2025-04-03 13:16:57.849 [info] Synced file Untitled-1 modelVersion=513 in 38.30568999995012ms
+2025-04-03 13:16:58.161 [info] Synced file Untitled-1 modelVersion=514 in 38.65877500001807ms
+2025-04-03 13:16:58.799 [info] Synced file Untitled-1 modelVersion=516 in 40.49220899993088ms
+2025-04-03 13:16:59.950 [info] Synced file Untitled-1 modelVersion=523 in 40.90843300009146ms
+2025-04-03 13:17:02.086 [info] Synced file Untitled-1 modelVersion=544 in 39.77147000003606ms
+2025-04-03 13:17:03.960 [info] Synced file Untitled-1 modelVersion=560 in 38.919232999905944ms

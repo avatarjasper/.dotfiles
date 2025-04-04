@@ -1,0 +1,137 @@
+2025-04-03 13:03:44.099 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-04-03 13:03:44.099 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-04-03 13:03:44.099 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-04-03 13:03:44.293 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-04-03 13:04:23.447 [info] Search by message took 13.32401899999968ms for query "j"
+2025-04-03 13:04:23.449 [info] Search by sha took 7.6077189999996335ms for query "j"
+2025-04-03 13:04:34.981 [info] Search by message took 19.566147999998066ms for query "jlkj"
+2025-04-03 13:04:34.985 [info] Search by sha took 11.207676999998512ms for query "jlkj"
+2025-04-03 13:04:35.501 [info] Search by message took 23.010393999997177ms for query "j"
+2025-04-03 13:04:35.503 [info] Search by sha took 9.516167000001587ms for query "j"
+2025-04-03 13:04:37.030 [info] Search by message took 21.837015999997675ms for query "crate"
+2025-04-03 13:04:37.033 [info] Search by sha took 8.472308000003977ms for query "crate"
+2025-04-03 13:04:38.135 [info] Search by message took 21.244133000000147ms for query "create"
+2025-04-03 13:04:38.137 [info] Search by sha took 7.7807449999963865ms for query "create"
+2025-04-03 13:04:38.389 [info] Search by message took 13.053685999999288ms for query "a"
+2025-04-03 13:04:38.391 [info] Search by sha took 7.858998000003339ms for query "a"
+2025-04-03 13:04:39.273 [info] Search by message took 13.939010999994935ms for query "vim"
+2025-04-03 13:04:39.276 [info] Search by sha took 7.8862999999983ms for query "vim"
+2025-04-03 13:04:41.336 [info] Search by message took 39.71636600000056ms for query "new"
+2025-04-03 13:04:41.339 [info] Search by sha took 21.126028999999107ms for query "new"
+2025-04-03 13:04:41.819 [info] Search by message took 39.80914399999892ms for query "mode"
+2025-04-03 13:04:41.832 [info] Search by sha took 33.459640000000945ms for query "mode"
+2025-04-03 13:04:42.906 [info] Search by message took 20.730733999997028ms for query "plugin"
+2025-04-03 13:04:42.909 [info] Search by sha took 7.675460999998904ms for query "plugin"
+2025-04-03 13:04:43.675 [info] Search by message took 39.23373699999502ms for query "that"
+2025-04-03 13:04:43.687 [info] Search by sha took 32.95094500000414ms for query "that"
+2025-04-03 13:04:45.008 [info] Search by message took 13.883523999997124ms for query "that"
+2025-04-03 13:04:45.028 [info] Search by message took 20.0674680000011ms for query "that"
+2025-04-03 13:04:45.028 [info] Search by sha took 28.263698000002478ms for query "that"
+2025-04-03 13:04:45.030 [info] Search by sha took 13.981792000005953ms for query "that"
+2025-04-03 13:05:11.842 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-03 13:05:11.842 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-03 13:05:11.844 [error] NoWorkspaceUriError
+2025-04-03 13:05:12.038 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-03 13:05:12.048 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-03 13:05:12.049 [error] NoWorkspaceUriError
+2025-04-03 13:05:12.217 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-03 13:05:12.217 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-03 13:05:12.217 [error] NoWorkspaceUriError
+2025-04-03 13:05:12.432 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-03 13:05:12.432 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-03 13:05:12.432 [error] NoWorkspaceUriError
+2025-04-03 13:05:12.638 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-03 13:05:12.638 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-03 13:05:12.638 [error] NoWorkspaceUriError
+2025-04-03 13:05:13.032 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-03 13:05:13.032 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-03 13:05:13.032 [error] NoWorkspaceUriError
+2025-04-03 13:05:58.778 [info] Search by message took 14.855265000020154ms for query "plugin"
+2025-04-03 13:05:58.781 [info] Search by sha took 8.18705599999521ms for query "plugin"
+2025-04-03 13:05:59.489 [info] Search by message took 14.942244000005303ms for query "for"
+2025-04-03 13:05:59.492 [info] Search by sha took 8.784047000022838ms for query "for"
+2025-04-03 13:06:00.496 [info] Search by message took 16.069258999981685ms for query "creating"
+2025-04-03 13:06:00.499 [info] Search by sha took 9.906931000004988ms for query "creating"
+2025-04-03 13:06:01.375 [info] Search by message took 40.48200399999041ms for query "tabs"
+2025-04-03 13:06:01.378 [info] Search by sha took 20.88935699997819ms for query "tabs"
+2025-04-03 13:06:02.074 [info] Search by message took 22.168551999988267ms for query "tabs."
+2025-04-03 13:06:02.077 [info] Search by sha took 8.222942000022158ms for query "tabs."
+2025-04-03 13:06:02.565 [info] Search by message took 11.98283100000117ms for query "T"
+2025-04-03 13:06:02.568 [info] Search by sha took 8.308649999991758ms for query "T"
+2025-04-03 13:06:04.049 [info] Search by message took 48.79502799999318ms for query "First"
+2025-04-03 13:06:04.059 [info] Search by sha took 38.42204000000493ms for query "First"
+2025-04-03 13:06:04.338 [info] Search by message took 37.66952399999718ms for query "of"
+2025-04-03 13:06:04.341 [info] Search by sha took 20.369380999996793ms for query "of"
+2025-04-03 13:06:04.835 [info] Search by message took 15.641604999982519ms for query "all"
+2025-04-03 13:06:04.838 [info] Search by sha took 8.591386000014609ms for query "all"
+2025-04-03 13:06:05.628 [info] Search by message took 14.428039999998873ms for query "a"
+2025-04-03 13:06:05.631 [info] Search by sha took 7.895537000003969ms for query "a"
+2025-04-03 13:06:07.157 [info] Search by message took 25.63740599999437ms for query "tabs."
+2025-04-03 13:06:09.765 [info] Search by sha took 2612.8197320000036ms for query "tabs."
+2025-04-03 13:06:10.017 [info] Search by message took 42.366749000007985ms for query "create"
+2025-04-03 13:06:10.029 [info] Search by sha took 34.75533900002483ms for query "create"
+2025-04-03 13:06:12.908 [info] Search by message took 22.0755530000024ms for query "are"
+2025-04-03 13:06:12.911 [info] Search by sha took 9.155364000005648ms for query "are"
+2025-04-03 13:06:13.943 [info] Search by message took 43.536438999988604ms for query "to"
+2025-04-03 13:06:13.959 [info] Search by sha took 37.86706799999229ms for query "to"
+2025-04-03 13:06:14.721 [info] Search by message took 39.17545000000973ms for query "create"
+2025-04-03 13:06:14.728 [info] Search by sha took 23.372033999999985ms for query "create"
+2025-04-03 13:06:37.976 [info] Search by message took 31.430231000005733ms for query "wh"
+2025-04-03 13:06:37.987 [info] Search by sha took 26.609152000019094ms for query "wh"
+2025-04-03 13:06:38.335 [info] Search by message took 45.500055999989854ms for query "whe"
+2025-04-03 13:06:38.346 [info] Search by sha took 35.69212100000004ms for query "whe"
+2025-04-03 13:06:39.275 [info] Search by message took 48.729088000021875ms for query "w"
+2025-04-03 13:06:39.285 [info] Search by sha took 31.27418999999645ms for query "w"
+2025-04-03 13:06:39.603 [info] Search by message took 49.35941899998579ms for query "we"
+2025-04-03 13:06:39.613 [info] Search by sha took 33.255873000016436ms for query "we"
+2025-04-03 13:06:40.139 [info] Search by message took 34.27046600001631ms for query "are"
+2025-04-03 13:06:40.148 [info] Search by sha took 26.449580000014976ms for query "are"
+2025-04-03 13:06:41.296 [info] Search by message took 25.937527000001865ms for query "goind"
+2025-04-03 13:06:41.303 [info] Search by sha took 19.147655999986455ms for query "goind"
+2025-04-03 13:06:42.027 [info] Search by message took 23.69168200000422ms for query "going"
+2025-04-03 13:06:42.036 [info] Search by sha took 19.13106000001426ms for query "going"
+2025-04-03 13:06:42.414 [info] Search by message took 25.96458200001507ms for query "to"
+2025-04-03 13:06:42.419 [info] Search by sha took 16.96897399998852ms for query "to"
+2025-04-03 13:06:43.386 [info] Search by message took 31.927800000004936ms for query "write"
+2025-04-03 13:06:43.392 [info] Search by sha took 22.099715000018477ms for query "write"
+2025-04-03 13:06:43.597 [info] Search by message took 20.80649300001096ms for query "i"
+2025-04-03 13:06:43.602 [info] Search by sha took 13.562420000002021ms for query "i"
+2025-04-03 13:06:44.298 [info] Search by message took 45.87781099998392ms for query "in"
+2025-04-03 13:06:44.309 [info] Search by sha took 35.399179000000004ms for query "in"
+2025-04-03 13:06:44.895 [info] Search by message took 24.780112000007648ms for query "lua,"
+2025-04-03 13:06:44.902 [info] Search by sha took 18.44602199998917ms for query "lua,"
+2025-04-03 13:06:45.462 [info] Search by message took 25.50092500000028ms for query "and"
+2025-04-03 13:06:45.468 [info] Search by sha took 18.975774999998976ms for query "and"
+2025-04-03 13:06:45.703 [info] Search by message took 49.36750700001721ms for query "t"
+2025-04-03 13:06:45.708 [info] Search by sha took 29.210376000002725ms for query "t"
+2025-04-03 13:06:46.067 [info] Search by message took 17.129564999981085ms for query "we"
+2025-04-03 13:06:46.070 [info] Search by sha took 14.318127000005916ms for query "we"
+2025-04-03 13:06:46.635 [info] Search by message took 31.060410000005504ms for query "are"
+2025-04-03 13:06:46.641 [info] Search by sha took 21.299645000020973ms for query "are"
+2025-04-03 13:06:53.229 [info] Search by message took 59.221088999998756ms for query "to"
+2025-04-03 13:06:53.237 [info] Search by sha took 40.73302299997886ms for query "to"
+2025-04-03 13:06:55.352 [info] Search by message took 46.17770699999528ms for query "going"
+2025-04-03 13:06:55.359 [info] Search by sha took 25.745250000007218ms for query "going"
+2025-04-03 13:06:56.775 [info] Search by message took 22.948652000020957ms for query "lua"
+2025-04-03 13:06:56.782 [info] Search by sha took 13.246201000001747ms for query "lua"
+2025-04-03 13:06:57.365 [info] Search by message took 27.143309999984922ms for query "lua,"
+2025-04-03 13:06:57.371 [info] Search by sha took 18.960860999999568ms for query "lua,"
+2025-04-03 13:06:57.637 [info] Search by message took 34.22516500001075ms for query "p"
+2025-04-03 13:06:57.641 [info] Search by sha took 17.05757000000449ms for query "p"
+2025-04-03 13:06:58.399 [info] Search by message took 46.3323129999917ms for query "i"
+2025-04-03 13:06:58.405 [info] Search by sha took 26.039818999997806ms for query "i"
+2025-04-03 13:06:59.051 [info] Search by message took 31.376580999989528ms for query "a"
+2025-04-03 13:06:59.057 [info] Search by sha took 22.331555000011576ms for query "a"
+2025-04-03 13:07:01.461 [info] Search by message took 21.6224059999804ms for query "tab.lua"
+2025-04-03 13:07:01.466 [info] Search by sha took 13.028994000022067ms for query "tab.lua"

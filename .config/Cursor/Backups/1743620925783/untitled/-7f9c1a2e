@@ -1,0 +1,309 @@
+untitled:Untitled-1 {"typeId":""}
+-- tab.lua
+-- A simple module for creating and editing guitar tabs
+
+local Tab = {}
+
+-- Constants
+local STRING_NAMES = {"E", "A", "D", "G", "B", "e"}
+local DEFAULT_WIDTH = 16  -- Default width of a tab section
+
+-- Create a new tab with optional width
+function Tab.new(width)
+    width = width or DEFAULT_WIDTH
+    
+    local tab = {
+        strings = {},
+        width = width,
+        cursor_pos = 1,
+        current_string = 1  -- Track which string we're editing
+    }
+    
+    -- Initialize empty strings
+    for i = 1, 6 do
+        tab.strings[i] = STRING_NAMES[i] .. "|"
+        for j = 1, width do
+            tab.strings[i] = tab.strings[i] .. "-"
+        end
+        tab.strings[i] = tab.strings[i] .. "|"
+    end
+    
+    return setmetatable(tab, {__index = Tab})
+end
+
+-- Add a column of dashes (empty space)
+function Tab:addEmptyColumn()
+    for i = 1, 6 do
+        local pos = self.cursor_pos + 1  -- +1 to account for the initial "|"
+        local str = self.strings[i]
+        self.strings[i] = str:sub(1, pos - 1) .. "-" .. str:sub(pos + 1)
+    end
+    self.cursor_pos = math.min(self.width, self.cursor_pos + 1)
+end
+
+-- Move cursor left
+function Tab:moveCursorLeft()
+    self.cursor_pos = math.max(1, self.cursor_pos - 1)
+end
+
+-- Move cursor right
+function Tab:moveCursorRight()
+    self.cursor_pos = math.min(self.width, self.cursor_pos + 1)
+end
+
+-- Move to previous string
+function Tab:moveStringUp()
+    self.current_string = math.max(1, self.current_string - 1)
+end
+
+-- Move to next string
+function Tab:moveStringDown()
+    self.current_string = math.min(6, self.current_string + 1)
+end
+
+-- Get current cursor position
+function Tab:getCursorPosition()
+    return self.cursor_pos, self.current_string
+end
+
+-- Edit a note at the current cursor position and string
+function Tab:editNote(fret)
+    local string_num = self.current_string
+    local pos = self.cursor_pos + 1  -- +1 to account for the initial "|"
+    local str = self.strings[string_num]
+    
+    -- Replace the character at position with the fret number
+    self.strings[string_num] = str:sub(1, pos - 1) .. fret .. str:sub(pos + #tostring(fret))
+    
+    -- Automatically move to the right after adding a note
+    self:moveCursorRight()
+end
+
+-- Extend the tab by adding more columns
+function Tab:extend(additional_width)
+    additional_width = additional_width or DEFAULT_WIDTH
+    
+    for i = 1, 6 do
+        -- Remove the ending "|"
+        self.strings[i] = self.strings[i]:sub(1, -2)
+        
+        -- Add new dashes
+        for j = 1, additional_width do
+            self.strings[i] = self.strings[i] .. "-"
+        end
+        
+        -- Add back the ending "|"
+        self.strings[i] = self.strings[i] .. "|"
+    end
+    
+    self.width = self.width + additional_width
+end
+
+-- Convert tab to string for display
+function Tab:toString()
+    return table.concat(self.strings, "\n")
+end
+
+-- Setup keymappings for Neovim
+function Tab.setup_keymaps()
+    local current_tab = Tab.new()
+    
+    -- Display the tab in a new buffer
+    vim.cmd('new')
+    vim.cmd('setlocal buftype=nofile')
+    vim.cmd('setlocal filetype=guitar_tab')
+    
+    local buf = vim.api.nvim_get_current_buf()
+    
+    -- Function to update the buffer with current tab
+    local function update_buffer()
+        local lines = {}
+        for i, line in ipairs(current_tab.strings) do
+            table.insert(lines, line)
+        end
+        vim.api.nvim_buf_set_lines(buf, 0, -1, false, lines)
+        
+        -- Highlight cursor position
+        local row = current_tab.current_string - 1
+        local col = current_tab.cursor_pos + 1  -- +1 for the initial "|"
+        vim.api.nvim_win_set_cursor(0, {row + 1, col})
+    end
+    
+    -- Initial display
+    update_buffer()
+    
+    -- Key mappings
+    local opts = { noremap = true, silent = true }
+    
+    -- Navigation
+    vim.api.nvim_buf_set_keymap(buf, 'n', 'h', '', {
+        noremap = true,
+        callback = function()
+            current_tab:moveCursorLeft()
+            update_buffer()
+        end
+    })
+    
+    vim.api.nvim_buf_set_keymap(buf, 'n', 'l', '', {
+        noremap = true,
+        callback = function()
+            current_tab:moveCursorRight()
+            update_buffer()
+        end
+    })
+    
+    vim.api.nvim_buf_set_keymap(buf, 'n', 'k', '', {
+        noremap = true,
+        callback = function()
+            current_tab:moveStringUp()
+            update_buffer()
+        end
+    })
+    
+    vim.api.nvim_buf_set_keymap(buf, 'n', 'j', '', {
+        noremap = true,
+        callback = function()
+            current_tab:moveStringDown()
+            update_buffer()
+        end
+    })
+    
+    -- Add empty column (space)
+    vim.api.nvim_buf_set_keymap(buf, 'n', '<Space>', '', {
+        noremap = true,
+        callback = function()
+            current_tab:addEmptyColumn()
+            update_buffer()
+        end
+    })
+    
+    -- Extend tab
+    vim.api.nvim_buf_set_keymap(buf, 'n', '<leader>e', '', {
+        noremap = true,
+        callback = function()
+            current_tab:extend()
+            update_buffer()
+        end
+    })
+    
+    -- Edit notes (0-24 frets)
+    for i = 0, 24 do
+        vim.api.nvim_buf_set_keymap(buf, 'n', tostring(i), '', {
+            noremap = true,
+            callback = function()
+                current_tab:editNote(tostring(i))
+                update_buffer()
+            end
+        })
+    end
+    
+    -- Save tab to file
+    vim.api.nvim_buf_set_keymap(buf, 'n', '<leader>s', '', {
+        noremap = true,
+        callback = function()
+            vim.ui.input({prompt = "Save tab to file: "}, function(filename)
+                if filename then
+                    local file = io.open(filename, "w")
+                    if file then
+                        file:write(current_tab:toString())
+                        file:close()
+                        print("Tab saved to " .. filename)
+                    else
+                        print("Failed to save tab")
+                    end
+                end
+            end)
+        end
+    })
+end
+
+-- Usage:
+-- In Neovim, run:
+-- :lua require('tab').setup_keymaps()
+--
+-- Key mappings:
+-- h, l - Move cursor left/right
+-- k, j - Move between strings (up/down)
+-- <Space> - Add empty column
+-- 0-24 - Add fret number at current position
+-- <leader>e - Extend tab
+-- <leader>s - Save tab to file
+
+return Tab
+
+
+-- Example usage:
+local Tab = require('tab')
+
+-- Create a new tab with 6 strings and 8 columns
+local my_tab = Tab:new(6, 8)
+
+-- Add some notes
+my_tab:editNote("3", 1, 2)  -- Add fret 3 on string 1, column 2
+my_tab:editNote("0", 2, 2)  -- Add fret 0 on string 2, column 2
+my_tab:editNote("2", 3, 2)  -- Add fret 2 on string 3, column 2
+my_tab:editNote("0", 4, 2)  -- Add fret 0 on string 4, column 2
+my_tab:editNote("x", 5, 2)  -- Add 'x' on string 5, column 2
+my_tab:editNote("3", 6, 2)  -- Add fret 3 on string 6, column 2
+
+-- Print the tab
+print(my_tab:toString())
+
+-- Or set up keymaps and use interactively
+vim.cmd([[
+  lua require('tab').setup_keymaps()
+]])
+
+-- Then navigate with h,j,k,l and add notes with 0-24
+-- Save with <leader>s
+-- Extend tab with <leader>e
+-- Example of how to use the tab navigation and editing commands
+print("\nTab Navigation and Editing Example:")
+print("1. Use 'h' and 'l' to move cursor left and right")
+print("2. Use 'j' and 'k' to move between strings (up/down)")
+print("3. Press 'i' to enter insert mode and add fret numbers (0-24)")
+print("4. Press <Space> to add an empty column")
+print("5. Use <leader>e to extend the tab with more columns")
+print("6. Use <leader>s to save the tab to a file")
+
+-- Visual example of cursor movement:
+print("\nStarting position (cursor at ▶):")
+print("e|----------|")
+print("B|----------|")
+print("G|▶---------|  <- Start here")
+print("D|----------|")
+print("A|----------|")
+print("E|----------|")
+
+print("\nAfter pressing 'j' (move down):")
+print("e|----------|")
+print("B|----------|")
+print("G|----------|")
+print("D|▶---------|  <- Cursor moved down")
+print("A|----------|")
+print("E|----------|")
+
+print("\nAfter pressing 'j' again (move down):")
+print("e|----------|")
+print("B|----------|")
+print("G|----------|")
+print("D|----------|")
+print("A|▶---------|  <- Cursor moved down again")
+print("E|----------|")
+
+print("\nAfter pressing 'i' then '5' (insert fret number):")
+print("e|----------|")
+print("B|----------|")
+print("G|----------|")
+print("D|----------|")
+print("A|5▶--------|  <- Added fret number 5")
+print("E|----------|")
+
+print("\nAfter pressing 'k' (move up):")
+print("e|----------|")
+print("B|----------|")
+print("G|----------|")
+print("D|▶5--------|  <- Cursor moved up")
+print("A|5---------|")
+print("E|----------|")
+
