@@ -1,0 +1,1 @@
+{"timestamp":1743277562068,"paths":["./tab/tab_backup.lua","./tab/tab.lua","./plugins/whichkey.lua","./plugins/colorscheme.lua","./plugins/lspconfig.lua","./plugins/mini.lua","./plugins/completion.lua","./plugins/startuptime.lua","./plugins/fzf.lua","./plugins/treesitter.lua","./plugins/devicons.lua","./plugins/tab.lua","./config/lazy.lua"]}

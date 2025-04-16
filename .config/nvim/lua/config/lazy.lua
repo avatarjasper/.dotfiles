@@ -26,6 +26,11 @@ require("lazy").setup({
   spec = {
     -- import your plugins
     { import = "plugins" },
+    { dir = "~/.config/nvim/lua/tab",
+    name = "tab",
+    dev = true},
+
+ 
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.

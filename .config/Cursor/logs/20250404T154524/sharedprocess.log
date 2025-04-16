@@ -1,0 +1,9 @@
+2025-04-05 12:55:19.957 [error] [network] #25: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-05 13:00:19.973 [error] [network] #26: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-05 13:05:19.980 [error] [network] #27: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-05 13:10:19.990 [error] [network] #28: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-05 13:15:20.009 [error] [network] #29: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-05 13:20:20.030 [error] [network] #30: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-05 13:25:20.046 [error] [network] #31: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-05 13:30:20.066 [error] [network] #32: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-04-05 13:35:20.078 [error] [network] #33: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED

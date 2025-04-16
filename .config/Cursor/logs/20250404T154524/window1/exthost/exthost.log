@@ -1,0 +1,43 @@
+2025-04-04 15:45:30.104 [info] Extension host with pid 45666 started
+2025-04-04 15:45:30.128 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-04 15:45:30.211 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-04 15:45:30.220 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-04 15:45:30.355 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-04 15:45:30.490 [info] Eager extensions activated
+2025-04-04 15:45:30.505 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:45:30.744 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:45:30.789 [info] Extension host with pid 45719 started
+2025-04-04 15:45:30.789 [info] Eager extensions activated
+2025-04-04 15:45:30.789 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:45:31.072 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:45:31.275 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:45:31.616 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:45:31.630 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:45:31.838 [error] Error: ENOENT: no such file or directory, open '/home/aj/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-04-04 15:45:58.025 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-04 15:45:58.028 [error] Error: ENOENT: no such file or directory, open '/home/aj/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-04-04 15:45:58.028 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-04 15:45:58.035 [info] Extension host with pid 45719 exiting with code 0
+2025-04-04 15:45:58.057 [info] Extension host with pid 45666 exiting with code 0
+2025-04-04 15:46:00.455 [info] Extension host with pid 45842 started
+2025-04-04 15:46:00.455 [info] Skipping acquiring lock for /home/aj/.config/Cursor/User/workspaceStorage/43ead39c01cdac4cbb00cb3d2205bf84.
+2025-04-04 15:46:00.487 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-04 15:46:00.496 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-04 15:46:00.595 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-04 15:46:00.707 [info] Eager extensions activated
+2025-04-04 15:46:00.733 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:46:00.911 [info] Extension host with pid 45865 started
+2025-04-04 15:46:00.911 [info] Skipping acquiring lock for /home/aj/.config/Cursor/User/workspaceStorage/43ead39c01cdac4cbb00cb3d2205bf84.
+2025-04-04 15:46:00.911 [info] Eager extensions activated
+2025-04-04 15:46:00.911 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:46:00.938 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:46:01.140 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:46:01.202 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:46:01.359 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:46:01.367 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 15:46:02.042 [error] Error: ENOENT: no such file or directory, open '/home/aj/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-04-04 15:46:09.296 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-05 13:40:31.603 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-05 13:40:31.605 [info] Extension host with pid 45865 exiting with code 0
+2025-04-05 13:40:31.607 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-05 13:40:31.636 [info] Extension host with pid 45842 exiting with code 0

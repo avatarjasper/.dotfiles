@@ -1,0 +1,264 @@
+2025-04-04 15:45:31.790 [error] Failed to check if file sync is enabled for user {}
+2025-04-04 15:45:31.790 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-04 15:45:31.790 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-04 15:45:31.984 [info] [registerEventListeners] Registering event listeners
+2025-04-04 15:45:32.811 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 15:45:32.846 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 15:45:32.992 [info] Fetched fsConfig in 145.73945900000035ms
+2025-04-04 15:45:32.992 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 15:45:32.993 [info] File sync enabled status: true
+2025-04-04 15:45:32.993 [info] Starting sync of visible tabs
+2025-04-04 15:45:32.993 [info] Fetched fsConfig in 182.26860099999976ms
+2025-04-04 15:45:32.993 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 15:45:33.034 [info] Uploaded file Untitled-1 modelVersion=1 in 39.626367999999275ms
+2025-04-04 15:45:33.035 [info] Synced all visible tabs in 42.57051000000047ms
+2025-04-04 15:45:33.743 [info] Starting sync of visible tabs
+2025-04-04 15:45:33.789 [info] Uploaded file Untitled-1 modelVersion=1 in 43.735600999999406ms
+2025-04-04 15:45:33.789 [info] Synced all visible tabs in 47.60492599999998ms
+2025-04-04 15:45:33.791 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 15:45:33.836 [info] Fetched fsConfig in 43.92956000000049ms
+2025-04-04 15:45:33.836 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 15:45:57.898 [info] Handled visible editors change in 0.23923300000024028ms
+2025-04-04 15:46:01.558 [error] Failed to check if file sync is enabled for user {}
+2025-04-04 15:46:01.558 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-04 15:46:01.558 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-04 15:46:01.695 [info] [registerEventListeners] Registering event listeners
+2025-04-04 15:46:02.487 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 15:46:02.625 [info] Fetched fsConfig in 136.50123800000028ms
+2025-04-04 15:46:02.625 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 15:46:02.626 [info] File sync enabled status: true
+2025-04-04 15:46:02.626 [info] Starting sync of visible tabs
+2025-04-04 15:46:02.626 [info] Synced all visible tabs in 0.19585000000006403ms
+2025-04-04 15:46:03.386 [info] Starting sync of visible tabs
+2025-04-04 15:46:03.386 [info] Synced all visible tabs in 0.17634300000008807ms
+2025-04-04 15:46:03.428 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 15:46:03.468 [info] Fetched fsConfig in 40.17503000000033ms
+2025-04-04 15:46:03.468 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 15:46:09.374 [info] Uploaded file tab/tab.lua modelVersion=1 in 45.074799999998504ms
+2025-04-04 15:46:09.374 [info] Handled visible editors change in 207.96207999999933ms
+2025-04-04 15:46:39.145 [info] Uploaded file plugins/tab.lua modelVersion=4 in 40.53303600000072ms
+2025-04-04 15:46:39.148 [info] Uploaded file plugins/tab.lua modelVersion=4 in 41.675850999999966ms
+2025-04-04 15:46:39.155 [info] Uploaded file plugins/tab.lua modelVersion=4 in 38.9387229999993ms
+2025-04-04 15:46:39.160 [info] Uploaded file plugins/tab.lua modelVersion=4 in 42.397844999999506ms
+2025-04-04 15:47:57.809 [info] Handled visible editors change in 0.19358799999463372ms
+2025-04-04 15:47:57.836 [info] Handled visible editors change in 0.36114399999496527ms
+2025-04-04 15:50:44.752 [info] Handled visible editors change in 0.4562949999817647ms
+2025-04-04 15:50:44.795 [info] Handled visible editors change in 0.3982120000291616ms
+2025-04-04 15:50:45.832 [info] Handled visible editors change in 0.1864270000369288ms
+2025-04-04 15:50:45.854 [info] Handled visible editors change in 0.7307220000075176ms
+2025-04-04 15:50:47.997 [info] Handled visible editors change in 0.1758399999816902ms
+2025-04-04 15:50:48.014 [info] Handled visible editors change in 0.5267239999957383ms
+2025-04-04 15:50:49.066 [info] Handled visible editors change in 0.26992400002200156ms
+2025-04-04 15:50:49.085 [info] Handled visible editors change in 0.8950499999918975ms
+2025-04-04 15:50:53.837 [info] Handled visible editors change in 0.46813299995847046ms
+2025-04-04 15:50:53.856 [info] Handled visible editors change in 0.3477269999566488ms
+2025-04-04 15:50:56.295 [info] Handled visible editors change in 0.22873299999628216ms
+2025-04-04 15:50:56.314 [info] Handled visible editors change in 0.8126869999687187ms
+2025-04-04 15:50:57.041 [info] Handled visible editors change in 0.3723079999908805ms
+2025-04-04 15:50:57.060 [info] Handled visible editors change in 0.6511039999895729ms
+2025-04-04 15:50:57.718 [info] Handled visible editors change in 0.49802500003715977ms
+2025-04-04 15:50:57.740 [info] Handled visible editors change in 0.5069019999937154ms
+2025-04-04 15:50:58.281 [info] Handled visible editors change in 0.23705799999879673ms
+2025-04-04 15:50:58.302 [info] Handled visible editors change in 1.2259690000209957ms
+2025-04-04 15:51:00.380 [info] Synced file tab/tab.lua modelVersion=2 in 42.08927999995649ms
+2025-04-04 15:51:00.611 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 15:51:00.656 [info] Fetched fsConfig in 44.315635000006296ms
+2025-04-04 15:51:00.656 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 15:51:00.656 [info] File sync enabled status: true
+2025-04-04 15:51:00.656 [info] Starting sync of visible tabs
+2025-04-04 15:51:00.656 [info] Synced all visible tabs in 0.18406599998706952ms
+2025-04-04 15:51:14.269 [info] Synced file plugins/tab.lua modelVersion=5 in 43.541299999982584ms
+2025-04-04 15:51:25.424 [info] Handled visible editors change in 0.1621879999875091ms
+2025-04-04 15:51:25.479 [info] Handled visible editors change in 1.1453439999604598ms
+2025-04-04 15:51:27.260 [info] Handled visible editors change in 0.13141000003088266ms
+2025-04-04 15:51:27.282 [info] Handled visible editors change in 0.9408219999750145ms
+2025-04-04 15:51:28.226 [info] Handled visible editors change in 0.22968200000468642ms
+2025-04-04 15:51:28.244 [info] Handled visible editors change in 0.7440269999788143ms
+2025-04-04 15:51:33.388 [info] Handled visible editors change in 0.16677299997536466ms
+2025-04-04 15:51:33.405 [info] Handled visible editors change in 0.333059000025969ms
+2025-04-04 15:51:53.054 [info] Handled visible editors change in 0.553994000016246ms
+2025-04-04 15:51:53.073 [info] Handled visible editors change in 0.5413260000059381ms
+2025-04-04 15:51:55.381 [info] Handled visible editors change in 0.12063700001453981ms
+2025-04-04 15:51:55.396 [info] Handled visible editors change in 0.44051099999342114ms
+2025-04-04 15:53:20.497 [info] Synced file tab/tab.lua modelVersion=4 in 48.42481300001964ms
+2025-04-04 15:53:20.598 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 15:53:20.636 [info] Fetched fsConfig in 38.22955099999672ms
+2025-04-04 15:53:20.636 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 15:53:20.636 [info] File sync enabled status: true
+2025-04-04 15:53:20.636 [info] Starting sync of visible tabs
+2025-04-04 15:53:20.636 [info] Synced all visible tabs in 0.10635999997612089ms
+2025-04-04 15:55:40.740 [info] Synced file tab/tab.lua modelVersion=5 in 54.666399999987334ms
+2025-04-04 15:55:40.902 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 15:55:40.944 [info] Fetched fsConfig in 42.15008499997202ms
+2025-04-04 15:55:40.944 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 15:55:40.944 [info] File sync enabled status: true
+2025-04-04 15:55:40.944 [info] Starting sync of visible tabs
+2025-04-04 15:55:40.944 [info] Synced all visible tabs in 0.09668499999679625ms
+2025-04-04 15:57:15.747 [info] Synced file tab/tab.lua modelVersion=6 in 45.20879999990575ms
+2025-04-04 15:57:15.823 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 15:57:15.861 [info] Fetched fsConfig in 38.32440500007942ms
+2025-04-04 15:57:15.869 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 15:57:15.869 [info] File sync enabled status: true
+2025-04-04 15:57:15.869 [info] Starting sync of visible tabs
+2025-04-04 15:57:15.869 [info] Synced all visible tabs in 0.1168710000347346ms
+2025-04-04 15:59:35.491 [info] Synced file tab/tab.lua modelVersion=7 in 40.35337099991739ms
+2025-04-04 15:59:35.569 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 15:59:35.612 [info] Fetched fsConfig in 41.85971599991899ms
+2025-04-04 15:59:35.616 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 15:59:35.616 [info] File sync enabled status: true
+2025-04-04 15:59:35.616 [info] Starting sync of visible tabs
+2025-04-04 15:59:35.616 [info] Synced all visible tabs in 0.08693400002084672ms
+2025-04-04 16:01:14.484 [info] Synced file tab/tab.lua modelVersion=8 in 40.097598999971524ms
+2025-04-04 16:01:14.612 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:01:14.653 [info] Fetched fsConfig in 40.89913799997885ms
+2025-04-04 16:01:14.653 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:01:14.653 [info] File sync enabled status: true
+2025-04-04 16:01:14.653 [info] Starting sync of visible tabs
+2025-04-04 16:01:14.653 [info] Synced all visible tabs in 0.4869960000505671ms
+2025-04-04 16:06:44.065 [info] Uploaded file tab/tab.lua modelVersion=9 in 210.80122800008394ms
+2025-04-04 16:06:44.065 [info] Uploaded file tab/tab.lua modelVersion=9 in 213.1329070001375ms
+2025-04-04 16:06:44.208 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:06:44.248 [info] Fetched fsConfig in 40.449040999868885ms
+2025-04-04 16:06:44.249 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:06:44.249 [info] File sync enabled status: true
+2025-04-04 16:06:44.249 [info] Starting sync of visible tabs
+2025-04-04 16:06:44.249 [info] Synced all visible tabs in 0.14075400005094707ms
+2025-04-04 16:08:18.432 [info] Synced file tab/tab.lua modelVersion=10 in 130.7982230000198ms
+2025-04-04 16:11:15.488 [info] Synced file tab/tab.lua modelVersion=11 in 38.06732699996792ms
+2025-04-04 16:11:15.571 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:11:15.612 [info] Fetched fsConfig in 40.661471999948844ms
+2025-04-04 16:11:15.612 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:11:15.613 [info] File sync enabled status: true
+2025-04-04 16:11:15.613 [info] Starting sync of visible tabs
+2025-04-04 16:11:15.613 [info] Synced all visible tabs in 0.614395999815315ms
+2025-04-04 16:14:04.652 [info] Synced file tab/tab.lua modelVersion=12 in 105.51465899986215ms
+2025-04-04 16:14:04.884 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:14:04.923 [info] Fetched fsConfig in 39.513321000151336ms
+2025-04-04 16:14:04.924 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:14:04.924 [info] File sync enabled status: true
+2025-04-04 16:14:04.924 [info] Starting sync of visible tabs
+2025-04-04 16:14:04.924 [info] Synced all visible tabs in 0.15124200005084276ms
+2025-04-04 16:14:08.942 [info] Synced file tab/tab.lua modelVersion=13 in 40.00344800017774ms
+2025-04-04 16:14:33.113 [info] Synced file tab/tab.lua modelVersion=14 in 36.264354000100866ms
+2025-04-04 16:18:18.657 [info] Synced file tab/tab.lua modelVersion=16 in 41.05875400011428ms
+2025-04-04 16:18:18.698 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:18:18.737 [info] Fetched fsConfig in 38.56361400010064ms
+2025-04-04 16:18:18.737 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:18:18.737 [info] File sync enabled status: true
+2025-04-04 16:18:18.737 [info] Starting sync of visible tabs
+2025-04-04 16:18:18.737 [info] Synced all visible tabs in 0.06968900002539158ms
+2025-04-04 16:19:11.492 [info] Synced file tab/tab.lua modelVersion=18 in 38.02897099987604ms
+2025-04-04 16:19:24.501 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:19:24.543 [info] Fetched fsConfig in 41.75489300000481ms
+2025-04-04 16:19:24.543 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:19:24.544 [info] File sync enabled status: true
+2025-04-04 16:19:24.544 [info] Starting sync of visible tabs
+2025-04-04 16:19:24.590 [info] Uploaded file tab/tab.lua modelVersion=20 in 43.61904599983245ms
+2025-04-04 16:19:24.590 [info] Synced all visible tabs in 46.46455799997784ms
+2025-04-04 16:19:24.621 [info] Synced file tab/tab.lua modelVersion=20 in 41.048450000118464ms
+2025-04-04 16:21:53.033 [info] Synced file tab/tab.lua modelVersion=21 in 39.38331100018695ms
+2025-04-04 16:21:53.082 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:21:53.122 [info] Fetched fsConfig in 40.045138999819756ms
+2025-04-04 16:21:53.122 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:21:53.122 [info] File sync enabled status: true
+2025-04-04 16:21:53.122 [info] Starting sync of visible tabs
+2025-04-04 16:21:53.122 [info] Synced all visible tabs in 0.06847199983894825ms
+2025-04-04 16:23:35.422 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:23:35.466 [info] Fetched fsConfig in 44.39638400031254ms
+2025-04-04 16:23:35.466 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:23:35.467 [info] File sync enabled status: true
+2025-04-04 16:23:35.467 [info] Starting sync of visible tabs
+2025-04-04 16:23:35.467 [info] Synced all visible tabs in 0.24888399988412857ms
+2025-04-04 16:24:50.734 [info] Handled visible editors change in 0.18008900014683604ms
+2025-04-04 16:24:50.966 [info] Uploaded file plugins/tab.lua modelVersion=5 in 151.45908500021324ms
+2025-04-04 16:24:50.966 [info] Handled visible editors change in 211.50965699972585ms
+2025-04-04 16:24:52.717 [info] Handled visible editors change in 0.18216999992728233ms
+2025-04-04 16:24:52.727 [info] Handled visible editors change in 0.3737289998680353ms
+2025-04-04 16:26:49.651 [info] Synced file tab/tab.lua modelVersion=23 in 41.812907999847084ms
+2025-04-04 16:26:49.751 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:26:49.792 [info] Fetched fsConfig in 40.955341999884695ms
+2025-04-04 16:26:49.792 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:26:49.792 [info] File sync enabled status: true
+2025-04-04 16:26:49.792 [info] Starting sync of visible tabs
+2025-04-04 16:26:49.792 [info] Synced all visible tabs in 0.06360500026494265ms
+2025-04-04 16:28:15.068 [info] Synced file tab/tab.lua modelVersion=24 in 42.39326100004837ms
+2025-04-04 16:28:15.134 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:28:15.182 [info] Fetched fsConfig in 47.91915600001812ms
+2025-04-04 16:28:15.182 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:28:15.182 [info] File sync enabled status: true
+2025-04-04 16:28:15.182 [info] Starting sync of visible tabs
+2025-04-04 16:28:15.182 [info] Synced all visible tabs in 0.19205799978226423ms
+2025-04-04 16:28:18.165 [info] Synced file tab/tab.lua modelVersion=32 in 43.998590000439435ms
+2025-04-04 16:28:21.186 [info] Synced file tab/tab.lua modelVersion=33 in 40.05741700017825ms
+2025-04-04 16:28:24.317 [info] Synced file tab/tab.lua modelVersion=34 in 44.41236800001934ms
+2025-04-04 16:28:29.818 [info] Handled visible editors change in 0.29097899980843067ms
+2025-04-04 16:28:29.834 [info] Handled visible editors change in 0.33143999986350536ms
+2025-04-04 16:28:31.373 [info] Handled visible editors change in 0.12969299964606762ms
+2025-04-04 16:28:31.383 [info] Handled visible editors change in 0.4169570002704859ms
+2025-04-04 16:28:34.478 [info] Synced file tab/tab.lua modelVersion=36 in 39.82343999994919ms
+2025-04-04 16:28:40.103 [info] Synced file tab/tab.lua modelVersion=37 in 40.02956699999049ms
+2025-04-04 16:28:44.557 [info] Synced file tab/tab.lua modelVersion=38 in 42.48619800014421ms
+2025-04-04 16:28:56.580 [info] Handled visible editors change in 0.11895200004801154ms
+2025-04-04 16:30:06.055 [info] Handled visible editors change in 0.3995400001294911ms
+2025-04-04 16:32:00.998 [info] Synced file tab/tab.lua modelVersion=41 in 41.197428999934345ms
+2025-04-04 16:32:01.033 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:32:01.076 [info] Fetched fsConfig in 42.232730000279844ms
+2025-04-04 16:32:01.076 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:32:01.076 [info] File sync enabled status: true
+2025-04-04 16:32:01.076 [info] Starting sync of visible tabs
+2025-04-04 16:32:01.076 [info] Synced all visible tabs in 0.3923689997754991ms
+2025-04-04 16:35:36.262 [info] Synced file tab/tab.lua modelVersion=42 in 43.64720799960196ms
+2025-04-04 16:35:36.342 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:35:36.381 [info] Fetched fsConfig in 38.616256000008434ms
+2025-04-04 16:35:36.381 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:35:36.381 [info] File sync enabled status: true
+2025-04-04 16:35:36.381 [info] Starting sync of visible tabs
+2025-04-04 16:35:36.381 [info] Synced all visible tabs in 0.08223799988627434ms
+2025-04-04 16:39:02.493 [info] Synced file tab/tab.lua modelVersion=43 in 219.9976369999349ms
+2025-04-04 16:39:02.734 [info] Synced file tab/tab.lua modelVersion=45 in 39.53810800006613ms
+2025-04-04 16:39:02.749 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:39:02.789 [info] Fetched fsConfig in 40.1181989996694ms
+2025-04-04 16:39:02.789 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:39:02.789 [info] File sync enabled status: true
+2025-04-04 16:39:02.789 [info] Starting sync of visible tabs
+2025-04-04 16:39:02.789 [info] Synced all visible tabs in 0.11611399985849857ms
+2025-04-04 16:41:15.814 [info] Synced file tab/tab.lua modelVersion=46 in 37.63259800011292ms
+2025-04-04 16:41:15.922 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:41:15.960 [info] Fetched fsConfig in 37.749996999744326ms
+2025-04-04 16:41:15.960 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:41:15.960 [info] File sync enabled status: true
+2025-04-04 16:41:15.960 [info] Starting sync of visible tabs
+2025-04-04 16:41:15.960 [info] Synced all visible tabs in 0.0952670001424849ms
+2025-04-04 16:41:16.803 [info] Synced file tab/tab.lua modelVersion=47 in 40.14006600016728ms
+2025-04-04 16:41:17.665 [info] Synced file tab/tab.lua modelVersion=48 in 41.51539999991655ms
+2025-04-04 16:41:19.107 [info] Synced file tab/tab.lua modelVersion=49 in 36.227030999958515ms
+2025-04-04 16:41:20.371 [info] Synced file tab/tab.lua modelVersion=50 in 46.873891999945045ms
+2025-04-04 16:41:21.194 [info] Synced file tab/tab.lua modelVersion=51 in 36.55911700008437ms
+2025-04-04 16:43:35.618 [info] Handled visible editors change in 0.2987930001690984ms
+2025-04-04 16:43:35.874 [info] Uploaded file plugins/tab.lua modelVersion=5 in 138.6721729999408ms
+2025-04-04 16:43:35.874 [info] Handled visible editors change in 240.3169709998183ms
+2025-04-04 16:43:36.735 [info] Handled visible editors change in 0.27318100025877357ms
+2025-04-04 16:43:36.750 [info] Handled visible editors change in 0.4271710002794862ms
+2025-04-04 16:44:13.962 [info] Synced file tab/tab.lua modelVersion=52 in 50.60545799974352ms
+2025-04-04 16:44:14.299 [info] Synced file tab/tab.lua modelVersion=53 in 43.61217200011015ms
+2025-04-04 16:44:14.686 [info] Synced file tab/tab.lua modelVersion=54 in 55.98371599987149ms
+2025-04-04 16:44:14.710 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:44:14.753 [info] Fetched fsConfig in 43.166742000263184ms
+2025-04-04 16:44:14.753 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:44:14.754 [info] File sync enabled status: true
+2025-04-04 16:44:14.754 [info] Starting sync of visible tabs
+2025-04-04 16:44:14.754 [info] Synced all visible tabs in 0.29630000004544854ms
+2025-04-04 16:47:17.965 [info] Synced file tab/tab.lua modelVersion=55 in 37.00402300013229ms
+2025-04-04 16:47:18.077 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-04 16:47:18.118 [info] Fetched fsConfig in 40.845944999717176ms
+2025-04-04 16:47:18.118 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-04 16:47:18.119 [info] File sync enabled status: true
+2025-04-04 16:47:18.119 [info] Starting sync of visible tabs
+2025-04-04 16:47:18.119 [info] Synced all visible tabs in 0.44797899993136525ms
+2025-04-04 16:48:53.027 [info] Synced file tab/tab.lua modelVersion=56 in 134.14154500002041ms
+2025-04-04 19:10:41.102 [info] Handled visible editors change in 0.2355680000036955ms
+2025-04-04 19:10:41.396 [info] Uploaded file plugins/tab.lua modelVersion=5 in 136.815766999498ms
+2025-04-04 19:10:41.397 [info] Handled visible editors change in 281.70472900010645ms
+2025-04-04 19:10:43.789 [info] Handled visible editors change in 0.13858100026845932ms
+2025-04-04 19:10:43.990 [info] Uploaded file tab/tab.lua modelVersion=56 in 43.65212500002235ms
+2025-04-04 19:10:43.990 [info] Handled visible editors change in 189.74169400054961ms

@@ -3,6 +3,7 @@
 -- Load the lazy.nvim setup
 require('config.lazy')
 
+
 -- Optionally, set up basic settings for Neovim here
 vim.opt.number = true  -- Example: Enable line numbers
 vim.opt.relativenumber = true  -- Example: Enable relative line numbers
