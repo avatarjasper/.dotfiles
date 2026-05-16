@@ -1,0 +1,18 @@
+[font]
+size = 16.0
+
+[font.normal]
+family = "Monospace"
+# family = "Symbols Nerd Font"
+style = "Regular"
+
+# [font.normal]
+# family = "Iosevka Term Nerd Font"
+# style = "Regular"
+#
+
+
+# [font.normal]
+# family = "Blex Mono Nerd Font"
+# style = "Regular"
+
