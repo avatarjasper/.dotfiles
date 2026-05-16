@@ -1,0 +1,27 @@
+from reddit:
+
+
+Pro Tip:
+
+You can easily try out multiple configs totally separate from each other. Each has its own .config, .local and .cache that do not interfere with one another.
+
+Simply git clone the repo you want to use as your config, for example LazyVim, to your ~/.config directory and name the directory accordingly:
+
+cd ~/.config
+git clone https://github.com/LazyVim/starter 
+mv starter lazyvim
+
+Then it’s a simple as running the nvim command prefaced by NVIM_APPNAME=(name of your config directory from previous step):
+
+NVIM_APPNAME=lazyvim nvim
+
+Set an alias:
+
+alias lazyvim="NVIM_APPNAME=lazyvim nvim"
+
+Now you can use NeoVim with the LazyVim config by running:
+
+lazyvim
+
+You can do this with as many configs as you’d like. It’s a documented feature in NeoVim :help NVIM_APPNAME
+
